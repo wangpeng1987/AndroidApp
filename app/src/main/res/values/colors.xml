@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="c">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#FFFFFF</color>
+
+    <!-- 自定义色值，最好和sketch保持一致，前缀m开头-->
+    <color name="mFFFFFF">#FFFFFF</color>
+    <color name="m262626">#262626</color>
+    <color name="m00000000">#00000000</color>
+    <color name="m80000000">#80000000</color>
+    <color name="mFF000000">#FF000000</color>
+    <color name="mF9D000">#F9D000</color>
+    <color name="m929292">#929292</color>
+    <color name="mEEEEEE">#EEEEEE</color>
+    <color name="m752F26">#752F26</color>
+    <color name="m42626262">#42626262</color>
+    <color name="m04C6BF">#04C6BF</color>
+    <color name="mC9C9C9">#C9C9C9</color>
+    <color name="mE4E3E5">#E4E3E5</color>
+
+</resources>

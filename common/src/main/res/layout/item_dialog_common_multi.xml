@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/dialog_item_actv"
+        android:text=""
+        style="@style/dialog_common_multi_btn"
+        android:textColor="@color/colour_17"/>
+</LinearLayout>

@@ -1,0 +1,1818 @@
+<resources>
+    <!--Common -->
+    <string name="s_common_not_eligible" formatted="false">Sorry, it looks like you\'re not eligible for BOO!.</string>
+    <string name="s_common_first_name" formatted="false">First Name</string>
+    <string name="s_common_last_name" formatted="false">Last Name</string>
+    <string name="s_common_create_acct" formatted="false">Create Your Account</string>
+    <string name="s_common_username_permanent" formatted="false">Username(Permanent)</string>
+    <string name="s_common_password" formatted="false">Password</string>
+    <string name="s_new_password" formatted="false">New Password</string>
+    <string name="s_comfirm_password" formatted="false">Confirm Password</string>
+    <string name="s_common_username" formatted="false">Username</string>
+    <string name="s_common_usename_email" formatted="false">Username/Email</string>
+    <string name="s_common_veri_code" formatted="false">Verification Code</string>
+    <string name="s_common_enter_code" formatted="false">Enter Code Here</string>
+    <string name="s_common_resend" formatted="false">Resend</string>
+    <string name="s_common_incorret_uername" formatted="false">Incorrect username/email or password</string>
+    <string name="s_common_veri_number" formatted="false">Verify Your Number</string>
+    <string name="s_common_enter_number" formatted="false">Enter Your Phone Number</string>
+    <string name="s_common_settings" formatted="false">Settings</string>
+    <string name="s_common_stayalone" formatted="false">Stay Alone</string>
+    <string name="s_common_take_video" formatted="false">Hold Anywhere to take a video</string>
+    <string name="s_common_take_photo" formatted="false">Short Press to take a photo</string>
+    <string name="s_common_take_photo_3" formatted="false">Take Photo</string>
+    <string name="s_common_take_video1" formatted="false">Hold Anywhere</string>
+    <string name="s_common_take_video2" formatted="false"> to take a video</string>
+    <string name="s_common_take_photo1" formatted="false">Short Press</string>
+    <string name="s_common_take_photo2" formatted="false"> to take a photo</string>
+    <string name="s_common_permit_photo" formatted="false">BOO! requires access to your photos to save it.</string>
+    <string name="s_common_search" formatted="false">Search</string>
+    <string name="s_common_paste_get_featured" formatted="false">Paste #boo sboo.family to get featured.</string>
+    <string name="s_common_recents" formatted="false">Recents</string>
+    <string name="s_common_more" formatted="false">More</string>
+    <string name="s_sugtions" formatted="false">No suggestions.</string>
+    <string name="s_common_see_more" formatted="false">See More</string>
+    <string name="s_common_no_msg" formatted="false">No messages.</string>
+    <string name="s_common_frd_in_contacts" formatted="false">Friends in Contacts</string>
+    <string name="s_common_hold_talk" formatted="false">Hold and Talk</string>
+    <string name="s_common_release_send" formatted="false">Release to Send</string>
+    <string name="s_common_type_msg" formatted="false">Type a message...</string>
+    <string name="s_common_no_results" formatted="false">No results.</string>
+    <string name="s_common_save_album" formatted="false">Save to Album</string>
+    <string name="s_common_slt_frd" formatted="false">Select Friends</string>
+    <string name="s_common_create" formatted="false">Create</string>
+    <string name="s_common_creating" formatted="false">Creating</string>
+    <string name="s_common_created" formatted="false">Created</string>
+    <string name="s_common_fail_create" formatted="false">Failed to create</string>
+    <string name="s_common_share_frd" formatted="false">Share to Friends</string>
+    <string name="s_common_veri" formatted="false">Verifying</string>
+    <string name="s_common_unable_add" formatted="false">Unable to Add</string>
+    <string name="s_common_ok" formatted="false">OK</string>
+    <string name="s_common_leave" formatted="false">Leave</string>
+    <string name="s_common_uh_oh" formatted="false">Uh-oh! |1f622|</string>
+    <string name="s_common_network_wrong" formatted="false">It seems like something wrong with your network.</string>
+    <string name="s_common_oops" formatted="false">Oops...</string>
+    <string name="s_common_s_go" formatted="false">Let\'s go!</string>
+    <string name="s_common_welcome_to" formatted="false">Welcome to</string>
+    <string name="s_common_lets_play" formatted="false">Let\'s Play!</string>
+    <string name="s_common_totally_agree" formatted="false">I Totally Agree!</string>
+    <string name="s_common_girl" formatted="false">Girl</string>
+    <string name="s_common_boy" formatted="false">Boy</string>
+    <string name="s_common_repo" formatted="false">Report</string>
+    <string name="s_common_shuffle" formatted="false">Shuffle</string>
+    <string name="s_common_skip" formatted="false">Skip</string>
+    <string name="s_common_cxl" formatted="false">CANCEL</string>
+    <string name="s_cancel" formatted="false">Cancel</string>
+    <string name="s_common_or" formatted="false">OR</string>
+    <string name="s_common_continue" formatted="false">Continue</string>
+    <string name="s_common_opt" formatted="false">Option...</string>
+    <string name="s_common_oh_wait" formatted="false">Oh, wait :)</string>
+    <string name="s_common_name" formatted="false">Name</string>
+    <string name="s_common_just_sec" formatted="false">Just a sec! |270b|</string>
+    <string name="s_common_abd" formatted="false">Abandon</string>
+    <string name="s_common_create_excl" formatted="false">Create!</string>
+    <string name="s_common_ctats" formatted="false">Contacts</string>
+    <string name="s_common_done" formatted="false">Done</string>
+    <string name="s_common_cgats" formatted="false">Congrats |1f44f|</string>
+    <string name="s_common_create_poll" formatted="false">Create Polls</string>
+    <string name="s_common_del" formatted="false">Delete</string>
+    <string name="s_common_try" formatted="false">Try Again</string>
+    <string name="s_common_frd" formatted="false">Friends</string>
+    <string name="s_common_new_frd" formatted="false">New Friends</string>
+    <string name="s_common_add_frd" formatted="false">Add Friends</string>
+    <string name="s_common_album" formatted="false">Album</string>
+    <string name="s_common_my_frd" formatted="false">My Friends</string>
+    <string name="s_common_edit_name" formatted="false">Edit Name</string>
+    <string name="s_common_remove" formatted="false">Remove</string>
+    <string name="s_common_friend_contacts" formatted="false">Friends in Contacts</string>
+    <string name="s_common_upload_contacts" formatted="false">Upload your Contacts to find more friends.</string>
+    <string name="s_common_find" formatted="false">Find</string>
+    <string name="s_common_yes" formatted="false">Yes</string>
+    <string name="s_common_invite" formatted="false">Invite</string>
+    <string name="s_common_my_acct" formatted="false">My Account</string>
+    <string name="s_common_nickname" formatted="false">Nickname</string>
+    <string name="s_common_save" formatted="false">Save</string>
+    <string name="s_common_phone_number" formatted="false">Phone Number</string>
+    <string name="s_common_email" formatted="false">Email</string>
+    <string name="s_common_clear" formatted="false">Clear</string>
+    <string name="s_common_log_out" formatted="false">Log Out</string>
+    <string name="s_common_unable_refresh" formatted="false">Unable to refresh.</string>
+    <string name="s_common_network_disconnected" formatted="false">Network disconnected.</string>
+    <string name="s_common_saved" formatted="false">Saved</string>
+    <string name="s_common_failed_save" formatted="false">Failed to save.</string>
+    <string name="s_common_fail_save" formatted="false">Failed to save</string>
+    <string name="s_common_dont_allow" formatted="false">Don\'t Allow</string>
+    <string name="s_common_allow" formatted="false">Allow</string>
+    <string name="s_common_enter_valid_email" formatted="false">Please enter a valid email address to secure your account.</string>
+    <string name="s_common_accept" formatted="false">Accept</string>
+    <string name="s_common_added" formatted="false">Added</string>
+    <string name="s_common_remind" formatted="false">Remind</string>
+    <string name="s_common_sure" formatted="false">Sure</string>
+    <string name="s_common_send" formatted="false">Send</string>
+    <string name="s_common_contact" formatted="false">Contact</string>
+    <string name="s_common_awesome" formatted="false">Awesome</string>
+    <string name="s_common_results" formatted="false">Results</string>
+    <string name="s_common_share" formatted="false">Share</string>
+    <string name="s_common_permit_library" formatted="false">You didn\'t allow access to your photos. Please go to: Settings-&gt;Privacy-&gt;BOO! to enable library access.</string>
+    <string name="s_common_accurancy" formatted="false">Accuracy</string>
+    <string name="s_common_rounds" formatted="false">Rounds</string>
+    <string name="s_common_me" formatted="false">Me</string>
+    <string name="s_common_friendship_test" formatted="false">The Friendship Test</string>
+    <string name="s_common_play" formatted="false">Play</string>
+    <string name="s_common_test" formatted="false">Test</string>
+    <string name="s_common_guy" formatted="false">guy</string>
+    <string name="s_common_hold_on" formatted="false">Hold on...</string>
+    <string name="s_common_shared" formatted="false">Shared!</string>
+    <string name="s_common_succeed" formatted="false">Succeed!</string>
+    <string name="s_common_to" formatted="false">To</string>
+    <string name="s_common_chat" formatted="false">Chat</string>
+    <string name="s_common_searching" formatted="false">Searching...</string>
+    <string name="s_common_communication_key" formatted="false">Communication is Key</string>
+    <string name="s_common_stay_touch" formatted="false">Stay in Touch</string>
+    <string name="s_common_never_stop_discover" formatted="false">Never Stop Discovering</string>
+    <string name="s_common_be_yourself" formatted="false">Be yourself</string>
+    <string name="s_common_sign_out_log_again" formatted="false">You have been signed out. Please log in again.</string>
+    <string name="s_common_log_error_retry" formatted="false">Log out error , exit and retry.</string>
+    <string name="s_common_boo_family" formatted="false">BooFamily</string>
+    <string name="s_common_simple_safe_fun" formatted="false">Simple, Safe &amp; Extremely Fun!</string>
+    <string name="s_common_req_version_update" formatted="false">**This new message requires the latest version. Please update.**</string>
+    <string name="s_late_ver_req" formatted="false">The latest version required.</string>
+    <string name="s_common_unknown_msg" formatted="false">[Unknown Message]</string>
+    <string name="s_common_video_msg" formatted="false">[Video]</string>
+    <string name="s_common_photo_msg" formatted="false">[Photo]</string>
+    <string name="s_common_gif_msg" formatted="false">[GIF]</string>
+    <string name="s_common_boocard" formatted="false">[Contact Card]</string>
+    <string name="s_common_game_msg" formatted="false">[Game: %s]</string>
+    <string name="s_common_games_msg" formatted="false">[Games]</string>
+    <string name="s_common_new_chat" formatted="false">New Chat</string>
+    <string name="s_common_create_group" formatted="false">Create a Group</string>
+    <string name="s_common_game" formatted="false">Games</string>
+    <string name="s_common_games" formatted="false">GAMES</string>
+    <string name="s_username_phonenum" formatted="false">Username/Phone Number/Email</string>
+    <string name="s_common_info" formatted="false">Info</string>
+    <string name="s_common_submit" formatted="false">Submit</string>
+    <string name="s_common_sticker_msg" formatted="false">[Stickers]</string>
+    <string name="s_common_succeeded" formatted="false">Succeeded.</string>
+    <string name="s_common_edit" formatted="false">Edit</string>
+    <string name="s_common_forward" formatted="false">Forward</string>
+    <string name="s_common_copy" formatted="false">Copy</string>
+    <string name="s_common_paste" formatted="false">Paste</string>
+    <string name="s_common_and" formatted="false">and</string>
+    <string name="s_common_choose_photo" formatted="false">Choose Photo</string>
+    <string name="s_common_ur_passw_update" formatted="false">Your password has been updated.</string>
+    <string name="s_common_edit_1" formatted="false">EDIT</string>
+    <string name="s_common_forward_succeed" formatted="false">Forward succeed.</string>
+    <string name="s_common_saving" formatted="false">Saving</string>
+    <string name="s_common_suggested" formatted="false">Suggested</string>
+    <string name="s_common_nearby" formatted="false">Nearby</string>
+
+
+    <!--注册 -->
+    <string name="s_sign_up" formatted="false">Sign Up</string>
+    <string name="s_log_in" formatted="false">Log In</string>
+    <string name="s_choose_age" formatted="false">Choose Your Age</string>
+    <string name="s_by_agree_to" formatted="false">By continuing, you agree to the</string>
+    <string name="s_agree_term_policy" formatted="false">By continuing, you agree to the Terms of Service &amp; Privacy Policy.</string>
+    <string name="s_keep_private" formatted="false">I\'d like to keep it private.</string>
+    <string name="s_less_than_13" formatted="false">Less than 13</string>
+    <string name="s_whats_your_name" formatted="false">What\'s Your Name?</string>
+    <string name="s_username_letter" formatted="false">Your username must start with a letter.</string>
+    <string name="s_username_characters" formatted="false">Your username must be between 6-20 characters.</string>
+    <string name="s_username_taken" formatted="false">This username has already been taken.</string>
+    <string name="s_phone_number_taken" formatted="false">This phone number has already been taken.</string>
+    <string name="s_username_invalid" formatted="false">Including invalid characters.</string>
+    <string name="s_username_underline" formatted="false">Usernames can\'t be ended with underline.</string>
+    <string name="s_password_short" formatted="false">Your password must be between 6-20 characters.</string>
+    <string name="s_your_num_wont_pub" formatted="false">Your number won\'t be displayed publicly.</string>
+    <string name="s_wont_spam" formatted="false">We won\'t send you spam.</string>
+    <string name="s_enter_valid_email" formatted="false">Please enter a valid email address.</string>
+    <string name="s_email_associated" formatted="false">This email is already associated with a username.</string>
+    <string name="s_this_num_not_regis" formatted="false">This phone number has not been registered.</string>
+    <string name="s_this_email_not_regis" formatted="false">This email has not been registered.</string>
+    <string name="s_wrong_verification_code" formatted="false">Wrong verification code</string>
+    <string name="s_logging_out" formatted="false">Logging out...</string>
+    <string name="s_pls_try_later" formatted="false">Please try again later.</string>
+    <string name="s_remark_name_empty" formatted="false">The remark name cannot be empty</string>
+    <string name="s_sync_boo" formatted="false">Use BOO! account to sync Boomoji  &amp; BOO! to enjoy a better experience.</string>
+
+
+    <!--登录 -->
+    <string name="s_phone_number" formatted="false">Login with Phone Number</string>
+    <string name="s_enter_mobile_num" formatted="false">Enter Your Phone Number</string>
+    <string name="s_we_verif_code" formatted="false">We will send you an SMS verification code.</string>
+    <string name="s_dont_phone_num" formatted="false">I don\'t have a phone number.</string>
+    <string name="s_enter_vaild_phone" formatted="false">Please enter a valid phone number!</string>
+    <string name="s_enter_email_adrs" formatted="false">Enter Your Email Address</string>
+    <string name="s_sign_with_phone_num" formatted="false">Sign up with phone number</string>
+    <string name="s_email_regis" formatted="false">This email is already registered!</string>
+    <string name="s_boo_acct" formatted="false">Login with Your Account</string>
+    <string name="s_email_secure_acct_chk" formatted="false">The email will be used to secure your account. Is it correct?</string>
+    <string name="s_forgot_pasword" formatted="false">Forgot your password?</string>
+    <string name="s_reset_password" formatted="false">Reset Password</string>
+    <string name="s_choose_reset" formatted="false">Please choose how you want to reset your password.</string>
+    <string name="s_via_phone" formatted="false">via Phone</string>
+    <string name="s_forgot_password_via_phone" formatted="false">Forgot Password</string>
+    <string name="s_via_email" formatted="false">via Email</string>
+    <string name="s_var_we_send_veri_email" formatted="false">We will send a verification code to this email.</string>
+    <string name="s_var_code_sent" formatted="false">A verification code has been sent to </string>
+    <string name="s_just_min_step_finish" formatted="false">Just a minute. One more step we\'ll finish this!</string>
+    <string name="s_code_failed" formatted="false">Code Sent Failed</string>
+    <string name="s_enter_confir_code" formatted="false">Enter Confirmation Code</string>
+    <string name="s_code_sent" formatted="false">The code will be delivered via SMS or a phone call.</string>
+    <string name="s_send_code_again" formatted="false">Send Code Again</string>
+    <string name="s_var_resend" formatted="false">Resend (%ss)</string>
+    <string name="s_didnt_rev_code" formatted="false">I didn\'t receive the code.</string>
+    <string name="s_boomoji_slogan" formatted="false">Be who you want to be</string>
+    <string name="s_exclusive_stickers" formatted="false">Get more exclusive stickers on BOO!</string>
+
+    <!--Permission -->
+    <string name="s_photo_off" formatted="false">Photos Access is Off</string>
+    <string name="s_photo_cam_access" formatted="false">Allow access to your photos to choose from library and save photos to your camera roll. To continue, you\'ll need to allow photos access in Settings.</string>
+    <string name="s_photo_access" formatted="false">Allow photo access to choose from library and save photos to your camera roll.</string>
+    <string name="s_last_step" formatted="false">Last Step!</string>
+    <string name="s_grant_permit" formatted="false">Please grant those permissions for a wonderful experience.</string>
+    <string name="s_enable_cam" formatted="false">Enable Camera</string>
+    <string name="s_enable_micro" formatted="false">Enable Microphone</string>
+    <string name="s_enable_contacts" formatted="false">Enable Contacts</string>
+    <string name="s_enable_noti" formatted="false">Enable Notifications</string>
+    <string name="s_normally_used" formatted="false">BOO! can be used normally only after you have granted permissions.</string>
+    <string name="s_sys_issue" formatted="false">A system issue occurred. Please try again.</string>
+    <string name="s_use_phone" formatted="false">Use Phone</string>
+    <string name="s_use_storage" formatted="false">Use Storage</string>
+    <string name="s_allow_storage_access" formatted="false">Allow storage access in Settings-&gt;Apps-&gt;BOO! to use BOO! features?</string>
+    <string name="s_allow_phone_access" formatted="false">Allow phone access in Settings-&gt;Apps-&gt;BOO! to log in to BOO!? BOO! accesses your phone book to verify your mobile and device ID, so as to ensure your login is not compromised. BOO! doesn\'t call other numbers or end your call.</string>
+
+    <!--Camera Access -->
+    <string name="s_use_camera" formatted="false">Use Camera</string>
+    <string name="s_common_boo_access_cam" formatted="false">BOO! Would Like to Access Your Camera</string>
+    <string name="s_common_boo_require_cam" formatted="false">BOO! requires camera access to record video.</string>
+    <string name="s_common_enable_cam" formatted="false">Enable Camera Access</string>
+    <string name="s_common_allow_access_cam" formatted="false">Allow camera access to take pictures, record videos, and scan Boocard. To continue, you\'ll need to allow camera access in Settings.</string>
+    <string name="s_allow_camera_access" formatted="false">Allow camera access in Settings-&gt;Apps-&gt;BOO! to use camera to take pictures, record videos, and scan Boocard?</string>
+    <string name="s_camera_off" formatted="false">Camera Access is Off</string>
+
+    <!--Microphone Access -->
+    <string name="s_use_microphone" formatted="false">Use Microphone</string>
+    <string name="s_common_boo_access_micro" formatted="false">BOO! Would Like to Access Your Microphone</string>
+    <string name="s_common_boo_require_micro" formatted="false">BOO! requires microphone access to record sound.</string>
+    <string name="s_common_enable_micro" formatted="false">Enable Microphone Access</string>
+    <string name="s_common_allow_access_micro" formatted="false">Allow microphone access to record videos, video chat, and more. To continue, you\'ll need to allow microphone access in Settings.</string>
+    <string name="s_allow_microphone_access" formatted="false">Allow microphone access in Settings-&gt;Apps-&gt;BOO! to record videos, video chat, and more?</string>
+    <string name="s_mic_off" formatted="false">Microphone Access is Off</string>
+
+    <!--Contacts Access -->
+    <string name="s_common_boo_find_contact" formatted="false">Find Friends From Your \"Contacts\</string>
+    <string name="s_use_contacts" formatted="false">Use Contacts</string>
+    <string name="s_common_boo_access_contact" formatted="false">BOO! Would Like to Access Your Contacts</string>
+    <string name="s_common_boo_require_contact" formatted="false">Find Friends on BOO!</string>
+    <string name="s_common_enable_contact" formatted="false">Enable Contacts Access</string>
+    <string name="s_common_allow_access_contact" formatted="false">When you connect BOO! with your phone contact list, you\'ll be able to see a list of your contacts who are on BOO!. From there, you can choose contacts to add, so you need to have your contacts periodically uploaded and stored on our server. Disconnect anytime to stop uploading.</string>
+    <string name="s_help_synced_stored" formatted="false">To help you find friends easier on BOO!, you can choose to have your contacts periodically uploaded and stored on our server. You can find which contacts to add friends. Disconnect anytime to stop uploading.</string>
+    <string name="s_allow_contacts_access" formatted="false">Allow contacts access in Settings-&gt;Apps-&gt;BOO! to find more friends? BOO! only use your contacts to help you make finding friends on BOO! easier.</string>
+
+    <!--Notification Access -->
+    <string name="s_common_boo_access_noti" formatted="false">BOO! Would Like to Send You Notifications</string>
+    <string name="s_common_boo_require_noti" formatted="false">Notifications may include alerts, sounds, and icon badges. These can be configured in Settings.</string>
+    <string name="s_common_enable_noti" formatted="false">Get notifications for new boos? Tap to enable notifications.</string>
+
+    <!--Location Access -->
+    <string name="s_common_boo_access_loca" formatted="false">BOO! Would Like to Access Your Location</string>
+    <string name="s_common_boo_require_loca" formatted="false">Please enable your Location Access to help you find friends easier from your school, and even discover more fun filters.</string>
+    <string name="s_common_enable_loca" formatted="false">Enable Location Access</string>
+    <string name="s_common_allow_access_loca" formatted="false">Allow location access to help you find schoolmates easier and let you discover filters. To continue, you\'ll need to allow location access in Settings.</string>
+    <string name="s_chatroom_location_access" formatted="false"> Allow location access to share your location to help you getting together with friends easier. To continue, you\'ll need to allow location access in Settings.</string>
+
+    <!--School修改方案 -->
+    <string name="s_common_enalble_location" formatted="false">Enable Location Access to find your school.</string>
+    <string name="s_may_pick_schools" formatted="false">You May Pick the Schools Below</string>
+    <string name="s_have_friends_school" formatted="false">You have friends at this school.</string>
+    <string name="s_location_off" formatted="false">Location Access is Off</string>
+    <string name="s_location_1st" formatted="false">Please make sure to enter the full name of your school.</string>
+    <string name="s_no_school" formatted="false">Couldn\'t find your school? Try searching for it with the Full Name of your school. If it still isn\'t showing, Don\'t worry! You can email us.</string>
+    <string name="s_common_email_us" formatted="false">Email Us</string>
+    <string name="s_common_retry" formatted="false">Retry</string>
+    <string name="s_school_email_body" formatted="false">My school isn\'t listed. And here is the school info: </string>
+    <string name="s_school_email_fullname" formatted="false">1. The full name of my school: </string>
+    <string name="s_school_email_school_city" formatted="false">2. The city where my school is located: </string>
+    <string name="s_school_email_city" formatted="false">3. The city where I\'m based: </string>
+    <string name="s_school_homeschooled" formatted="false">I\'m homeschooled</string>
+    <string name="s_common_homeschool" formatted="false">Homeschool</string>
+    <string name="s_location_forward_msg" formatted="false">[Location]%s.</string>
+    <string name="s_direction" formatted="false">Direction</string>
+    <string name="s_chatlist_location" formatted="false">[Location]</string>
+    <string name="s_edit_school_60" formatted="false">Please note: You won\'t be able to change your school info within 60 days.</string>
+    <string name="s_confirm_school_info" formatted="false">Please confirm your school info. Once you confirm it, you won\'t be able to change it within the next 60 days.</string>
+    <string name="s_confirm" formatted="false">Confirm</string>
+    <string name="s_more_results" formatted="false">More results for %s</string>
+
+    <!--关系重构 -->
+    <string name="s_from" formatted="false">From</string>
+    <string name="s_var_from" formatted="false">From %s</string>
+    <string name="s_add_by_username" formatted="false">Add by Username</string>
+    <string name="s_add_by_phnone_number" formatted="false">Add by Phone Number</string>
+    <string name="s_add_by_email" formatted="false">Add by Email</string>
+    <string name="s_from_recent_player" formatted="false">From Recent Games Player</string>
+    <string name="s_from_contact_card" formatted="false">From Contact Card Shared by %s</string>
+    <string name="s_add_by_boocode" formatted="false">Add by Boocard</string>
+    <string name="s_friend_suggestions" formatted="false">From Friends Suggestions</string>
+    <string name="s_from_mobile_contacts" formatted="false">From Mobile Contacts</string>
+    <string name="s_frd_limit_reached" formatted="false">Friend limit reached</string>
+    <string name="s_add_remove_frd" formatted="false">Wow you have so many friends! We\'re sorry that if you want to add new friends please remove some first.</string>
+    <string name="s_cant_request" formatted="false">Oh no! He/She has reached the friend limit. We\'re sorry that you can\'t request for now.</string>
+    <string name="s_accept_remove_frd" formatted="false">Wow you have so many friends! We\'re sorry that if you want to accept new friends please remove some first.</string>
+    <string name="s_cant_accept_now" formatted="false">Oh no! He/She has reached the friend limit. We\'re sorry that you can\'t accept for now.</string>
+
+    <!--Settings -->
+    <string name="s_privacy_safety" formatted="false">Privacy and Safety</string>
+    <string name="s_profile_settings" formatted="false">Profile Settings</string>
+    <string name="s_more" formatted="false">More</string>
+    <string name="s_choose_see_profile" formatted="false">Choosing who can see your profile</string>
+    <string name="s_only_me" formatted="false">Only me</string>
+    <string name="s_only_friends" formatted="false">Only friends</string>
+    <string name="s_all" formatted="false">All</string>
+    <string name="s_account_private" formatted="false">This account is private.</string>
+    <string name="s_user_not_exsit" formatted="false">This user doesn\'t exist.</string>
+    <string name="s_delete_1st_pop" formatted="false">Maybe you\'ve never counted how many days we spent together. But we know! Since the first day we met. It\'s been %s days and our love for you has never faded away. We\'re sorry that we weren\'t aware you are not satisfied until you want to leave.</string>
+    <string name="s_tell_us_why" formatted="false">Tell us why</string>
+    <string name="s_leave" formatted="false">Leave</string>
+    <string name="s_permant_delete" formatted="false">To permanently delete your account:</string>
+    <string name="s_delete_rule1" formatted="false">You\'ll need to email us to let us know what\'s up. After we confirm it, we\'ll help you to delete the account.</string>
+    <string name="s_delete_rule2" formatted="false">You\'ll need to delete the posts on Days by yourself for the security reasons.</string>
+    <string name="s_delete_rule3" formatted="false">Your phone number and email will be unbounded. But you can still use them to sign up on BOO!.</string>
+    <string name="s_delete_warning" formatted="false">Keep in mind that you can\'t sign up with the same username, because we can\'t recover deleted account.</string>
+    <string name="s_email_subject_delete" formatted="false">I want to delete my account.</string>
+    <string name="s_email_body1_delete" formatted="false">We\'re sorry to hear you\'d like to remove your account.</string>
+    <string name="s_email_body2_delete" formatted="false">Before you go, please tell us why:</string>
+    <string name="s_email_notes_delete" formatted="false">PLEASE NOTE: Deleting your account is a permanent and irreversible move. After the account is deleted, there is no option to recovery.</string>
+
+    <!--Boomoji对接 -->
+    <string name="s_my_boomoji_list" formatted="false">My Boomoji</string>
+    <string name="s_boomoji_intro" formatted="false">Boomoji is your animated 3D avatar. Create an expressive avatar and pick from a huge library of stickers featuring you and your friends.</string>
+    <string name="s_create_boomoji" formatted="false">Create Boomoji</string>
+    <string name="s_edit_boomoji" formatted="false">Edit Boomoji</string>
+    <string name="s_no_boomoji" formatted="false">You haven\'t created your Boomoji yet!</string>
+    <string name="s_boo_acc_login" formatted="false">You already have a BOO! account! Log In</string>
+    <string name="s_failed_to_merge" formatted="false">Failed to merge the sticker.</string>
+
+    <!--Boomoji Friends打通 -->
+
+    <string name="s_cap_done" formatted="false">DONE</string>
+    <string name="s_1_new_msg" formatted="false">1 new message.</string>
+    <string name="s_var_new_msg" formatted="false">%s new messages.</string>
+    <string name="s_bump_add_frd" formatted="false">Bump To Add Friends</string>
+    <string name="s_bump_quick_add" formatted="false">Bump to add quick friends.</string>
+    <string name="s_bump_frd_easier" formatted="false">Bump with friends and add them easier!</string>
+    <string name="s_var_frd_noti" formatted="false">You and %s are friends now!</string>
+    <string name="s_5_itmes_most" formatted="false">You can add 5 items at most.</string>
+
+    <!--Bump -->
+    <string name="s_bump_failed_title" formatted="false">Bumping Failed</string>
+    <string name="s_bump_failed_content" formatted="false">Oops…Failed to add friends.</string>
+    <string name="s_common_help" formatted="false">Help</string>
+    <string name="s_bump_failed" formatted="false">Bumping Failed?</string>
+    <string name="s_bump_retry" formatted="false">It took too long time to add friend by bumping? You can try to restart Bluetooth or add friend in the other way.</string>
+    <string name="s_restart_bluetooth" formatted="false">Restart Bluetooth</string>
+
+    <!--SMS Access -->
+    <string name="s_use_sms" formatted="false">Use SMS</string>
+    <string name="s_allow_sms_access" formatted="false">Allow SMS access in Settings-&gt;Apps-&gt;BOO! to send messages to your friends via BOO! directly? BOO! will not send any SMS to others without your permission.</string>
+
+    <!--Block -->
+    <string name="s_common_block" formatted="false">Block</string>
+    <string name="s_block_confirm" formatted="false">They won\'t be able to send messages to you on BOO!. We won\'t let them know you blocked them.</string>
+    <string name="s_blocked_booer" formatted="false">You blocked this Booer.</string>
+    <string name="s_block_frd_request" formatted="false">You blocked this Booer. You can\'t send friend request.</string>
+    <string name="s_block_voice_call" formatted="false">You blocked this Booer. You can\'t make a voice call.</string>
+    <string name="s_common_blocked" formatted="false">Blocked</string>
+    <string name="s_unblock_confirm" formatted="false">Are you sure you want to unblock this Booer?</string>
+
+
+    <!--Camera -->
+    <string name="s_live_photo" formatted="false">Live Photo</string>
+    <string name="s_unlock_filters" formatted="false">Unlock More Filters?</string>
+    <string name="s_enable_location_filters" formatted="false">Enable location to see more fun filters!</string>
+    <string name="s_enable_location" formatted="false">Enable location</string>
+    <string name="s_open_mouth" formatted="false">OPEN YOUR MOUTH</string>
+    <string name="s_raise_eyebrow" formatted="false">RAISE YOUR EYEBROW</string>
+    <string name="s_tap_ground" formatted="false">TAP GROUND TO PLACE</string>
+    <string name="s_add_caption" formatted="false">Tap to add a caption</string>
+    <string name="s_draw_doodles" formatted="false">Tap to draw doodles</string>
+    <string name="s_send_to_frd" formatted="false">Send to friends here</string>
+    <string name="s_save_to_album" formatted="false">Save to album here</string>
+    <string name="s_search_giphy_sticker" formatted="false">Search Giphy Stickers</string>
+    <string name="s_unlock_awesomeness" formatted="false">|1f49d| Unlock Awesomeness |1f49d|</string>
+    <string name="s_unlock_sticker" formatted="false">Please unlock this sticker pack to get tons of fun.</string>
+    <string name="s_var_only" formatted="false">Only %s</string>
+    <string name="s_abd_masterpiece" formatted="false">Are you sure you want to abandon your masterpiece?</string>
+    <string name="s_send_to" formatted="false">Send To</string>
+    <string name="s_group" formatted="false">Group</string>
+    <string name="s_create_group_new" formatted="false">+ Create Group</string>
+    <string name="s_frd_contacts" formatted="false">Friends in Contacts</string>
+    <string name="s_common_download" formatted="false">Download</string>
+    <string name="s_common_dlding" formatted="false">Downloading</string>
+    <string name="s_var_artist" formatted="false">Artist: %s</string>
+    <string name="s_save_to_sticker" formatted="false">Save to Stickers</string>
+    <string name="s_common_saved_new" formatted="false">Saved.</string>
+    <string name="s_saved" formatted="false">Saved.</string>
+    <string name="s_my_sticker" formatted="false">My Stickers</string>
+    <string name="s_you_cannot_sticker" formatted="false">You cannot add \n more stickers. |1f605|</string>
+    <string name="s_move_top" formatted="false">Move to top</string>
+    <string name="s_this_cannot_recover" formatted="false">This cannot be recovered.</string>
+    <string name="s_location" formatted="false">Location</string>
+    <string name="s_mention" formatted="false">sMention</string>
+    <string name="s_hashtag" formatted="false">#Tag</string>
+    <string name="s_weather" formatted="false">Weather</string>
+    <string name="s_tap_more" formatted="false">Tap for more.</string>
+    <string name="s_slt_loca" formatted="false">Select a Location</string>
+    <string name="s_find_loca" formatted="false">Find a location…</string>
+    <string name="s_failed_save" formatted="false">Failed to save.</string>
+    <string name="s_sticker_not_added" formatted="false">This sticker can not be added.</string>
+    <string name="s_sticker_300" formatted="false">You can add 300 stickers at most.</string>
+    <string name="s_sticker_not_exsit" formatted="false">The sticker does not exist.</string>
+    <string name="s_gif_too_large" formatted="false">The gif is too large.</string>
+    <string name="s_sticker_not_supported" formatted="false">The sticker is not supported.</string>
+    <string name="s_common_hold_to_talk" formatted="false">Hold to Talk</string>
+    <string name="s_common_rls_sld" formatted="false">Release to send. Slide up to cancel.</string>
+    <string name="s_var_last_seconds" formatted="false">Last %s seconds</string>
+    <string name="s_common_rls_del" formatted="false">Release to delete</string>
+    <string name="s_common_too_long" formatted="false">Too long.</string>
+    <string name="s_var_second_left" formatted="false">Only %s seconds Left!</string>
+    <string name="s_speaker_off" formatted="false">Speaker Mode Off</string>
+    <string name="s_speaker_on" formatted="false">Speaker Mode On</string>
+    <string name="s_common_too_short" formatted="false">Too short.</string>
+    <string name="s_common_audio_short" formatted="false">Audio is too short.</string>
+    <string name="s_common_audio_msg" formatted="false">[Audio]</string>
+    <string name="s_common_video_short" formatted="false">Video is too short.</string>
+    <string name="s_var_vid_clip_selected" formatted="false">%ss Selected</string>
+    <string name="s_video_too_short" formatted="false">Video too short</string>
+    <string name="s_failed_take" formatted="false">Failed. Please retake.</string>
+    <string name="s_file_broken" formatted="false">This file is broken. Please try another one.</string>
+    <string name="s_file_small" formatted="false">This file is too small. Please try another one.</string>
+    <string name="s_file_big" formatted="false">This file is too big. Please try another one.</string>
+    <string name="s_rear_camera" formatted="false">TRY IT WITH YOUR REAR CAMERA</string>
+
+
+    <!--Chat -->
+    <string name="s_invite_mobile_con" formatted="false">Invite Mobile Contacts</string>
+    <string name="s_network_disconnected" formatted="false">Network disconnected.</string>
+    <string name="s_no_internet_retry" formatted="false">Network disconnected. Please try again.</string>
+    <string name="s_get_noti_boos" formatted="false">Get notifications for new boos?</string>
+    <string name="s_tap_enable_notifi" formatted="false">Tap to enable notifications.</string>
+    <string name="s_var_contacts_frd_name" formatted="false">%s</string>
+    <string name="s_video_msg_contact_frd" formatted="false">Send a Video Message</string>
+    <string name="s_dont_have_group" formatted="false">You don\'t have group yet. |1f631|</string>
+    <string name="s_lets_start_chat" formatted="false">Yay! We are friends now. Let\'s start chatting! |1f47b|</string>
+    <string name="s_slide_cxl" formatted="false">Slide to 🗑 to Cancel</string>
+    <string name="s_release_cxl" formatted="false">Release to Cancel</string>
+    <string name="s_search_gif" formatted="false">Search in Giphy</string>
+    <string name="s_trending_gif" formatted="false">Trending</string>
+    <string name="s_resend_all" formatted="false">Resend All</string>
+    <string name="s_remove_frd_contacts" formatted="false">Are you sure you want to remove Friends in Contacts?</string>
+    <string name="s_pls_send_frd_chat" formatted="false">Please send a friend request to chat.</string>
+    <string name="s_var_request_frd_veri" formatted="false">requested friend verification.</string>
+    <string name="s_tap_create_group" formatted="false">Tap here to create a group</string>
+    <string name="s_new_chat" formatted="false">New Chat</string>
+    <string name="s_create_group" formatted="false">Create Group</string>
+    <string name="s_new_group" formatted="false">New Group</string>
+    <string name="s_new_group_1" formatted="false">New Group</string>
+    <string name="s_remark_nick_user_group" formatted="false">Remarks/Nickname/Username/Group Name</string>
+    <string name="s_remark_nick_user" formatted="false">Remarks/Nickname/Username</string>
+    <string name="s_slt_friend" formatted="false">Select Friends</string>
+    <string name="s_var_next" formatted="false">Next(%s)</string>
+    <string name="s_group_info" formatted="false">Group Info</string>
+    <string name="s_group_name" formatted="false">Group Name</string>
+    <string name="s_no_group_yet" formatted="false">No groups yet.</string>
+    <string name="s_no_recents_yet" formatted="false">No recents yet.</string>
+    <string name="s_no_contacts_yet" formatted="false">No contacts yet.</string>
+    <string name="s_create_group_least_frd" formatted="false">To create a group, you need to have at least 2 friends.</string>
+    <string name="s_group_name_character" formatted="false">Group Name(50 chars)</string>
+    <string name="s_group_name_empty" formatted="false">Group name cannot be empty.</string>
+    <string name="s_share_to_frd" formatted="false">Share to Friends</string>
+    <string name="s_dld_boo_join" formatted="false">Download BOO! to join us.</string>
+    <string name="s_add_to_group" formatted="false">Add to Group</string>
+    <string name="s_add" formatted="false">+ Add</string>
+    <string name="s_unable_add_to_group" formatted="false">Unable to add members to group right now. Please try again later.</string>
+    <string name="s_leave_group" formatted="false">Leave Group</string>
+    <string name="s_leave_group_question" formatted="false">Leave Group?</string>
+    <string name="s_will_be_clear" formatted="false">Boos and chats you\'ve sent will be cleared from the group.</string>
+    <string name="s_isnt_frd_send_request" formatted="false">%s isn\'t your friend. Send friend request first.</string>
+    <string name="s_full_house" formatted="false">Full House</string>
+    <string name="s_group_16_booers" formatted="false">You can\'t add members now. It reached the group member limits.</string>
+    <string name="s_group_full" formatted="false">This group is full. Unable to join now.</string>
+    <string name="s_fail_add" formatted="false">Failed to Add</string>
+    <string name="s_started_wait_join" formatted="false">%s started a group (%s) and waiting for you to join now. \n%s </string>
+    <string name="s_started_group_wait_join" formatted="false">%s started a group and waiting for you to join now. \n%s</string>
+    <string name="s_common_sorry" formatted="false">Sorry!</string>
+    <string name="s_msg_cant_sent_try_again" formatted="false">The message cannot be sent currently. Please try again later.</string>
+    <string name="s_cant_create_group" formatted="false">Can\'t Create Group</string>
+    <string name="s_unable_create_group_try" formatted="false">Unable to create group right now. Please try again later.</string>
+    <string name="s_var_sure_to_del" formatted="false">Are you sure you want to delete %s?</string>
+    <string name="s_you_not_frd" formatted="false">You guys are not friends anymore.</string>
+    <string name="s_you_not_group_chat" formatted="false">You are not in this group chat anymore.</string>
+    <string name="s_use_loca_school" formatted="false">Please enable your Location Access. This will help you find friends easier from your school.</string>
+    <string name="s_go_settings" formatted="false">Go to Settings</string>
+    <string name="s_privacy_use_school_frd" formatted="false">Your privacy is important. We only use your location to suggest schools nearby you.</string>
+    <string name="s_find_frd_school" formatted="false">Find Friends From Your School</string>
+    <string name="s_pick_school" formatted="false">Pick Your School</string>
+    <string name="s_search_school" formatted="false">Search your school</string>
+    <string name="s_cant_find_school" formatted="false">I can\'t find my school.</string>
+    <string name="s_enter_school_name" formatted="false">Enter Your School Name</string>
+    <string name="s_what_grade" formatted="false">What is/was your grade?</string>
+    <string name="s_thankyou" formatted="false">Thank You</string>
+    <string name="s_know_find_school" formatted="false">We\'ll let you know once we find your schoolmates on BOO!</string>
+    <string name="s_suggestion" formatted="false">Suggestions</string>
+    <string name="s_ignore" formatted="false">Ignore</string>
+    <string name="s_hide" formatted="false">Hide</string>
+    <string name="s_school" formatted="false">School</string>
+    <string name="s_your_school_edit" formatted="false">Your school is %s, do you want to edit it?</string>
+    <string name="s_var_from_schoolname" formatted="false">From %s</string>
+    <string name="s_add_school_find" formatted="false">Add your school info now to find more friends</string>
+    <string name="s_groups" formatted="false">Groups</string>
+    <string name="s_leave_msg" formatted="false">Leave a message...</string>
+    <string name="s_var_create_group" formatted="false">%s created the group</string>
+    <string name="s_var_create_group_you" formatted="false">You</string>
+    <string name="s_var_join_group_you" formatted="false">you</string>
+    <string name="s_var_invited" formatted="false"> invited </string>
+    <string name="s_var_join_group" formatted="false"> to join the group</string>
+    <string name="s_var_invite_join_group" formatted="false">%s invited %s to join the group.</string>
+    <string name="s_var_you_invite_group" formatted="false">You invited %s to join the group.</string>
+    <string name="s_not_frd_add_1" formatted="false">This person is not a friend of yours on BOO! Add them first.</string>
+    <string name="s_var_welcome_group" formatted="false">Welcome to %s\'s group chat. Invite more schoolmates along here.</string>
+    <string name="s_var_welcome_invite" formatted="false"> [Invite]</string>
+    <string name="s_var_welcome_schoolmates" formatted="false">Welcome to %s\'s group chat. Start chatting with your schoolmates. [Say Hi]</string>
+    <string name="s_var_welcome_hi" formatted="false"> [Say Hi]</string>
+    <string name="s_var_join_groupchat" formatted="false">%s just joined the group.</string>
+    <string name="s_web_var_welcome_group" formatted="false">Good news! %s\'s group chat is created! Start chatting now! |1f618|</string>
+    <string name="s_var_welcome_group_1" formatted="false">Welcome to %s\'s group chat. Invite more schoolmates along here. [Invite]</string>
+    <string name="s_create_code" formatted="false">Failed to create. Tap to retry.</string>
+    <string name="s_code_not_exsit" formatted="false">The Invite Code doesn\'t exist.</string>
+    <string name="s_invalid_code" formatted="false">The Invite Code has expired. Unable to join now.</string>
+    <string name="s_join_grp_code" formatted="false">Join Group via Invite Code</string>
+    <string name="s_enter_invite_code" formatted="false">Enter the Invite Code</string>
+    <string name="s_failed_code" formatted="false">Failed. Please try again.</string>
+    <string name="s_code_group_msg" formatted="false">%s just joined the group via Invite Code.</string>
+    <string name="s_invite_code_revoked" formatted="false">Unable to generate the Invite Code because group admin rejected.</string>
+    <string name="s_common_enter" formatted="false">Enter</string>
+    <string name="s_sharecode_sms" formatted="false">Hey, come join the group chat (%s) on BOO! with me.</string>
+    <string name="s_var_1_grp_sms" formatted="false"> %s invited you to join the group.</string>
+    <string name="s_var_less_3_grp_sms" formatted="false">%s invited you, %s, and %s to join the group.</string>
+    <string name="s_var_more_3_grp_sms" formatted="false">%s invited you, %s, %s, and %s others to join the group.</string>
+    <string name="s_var_grp_remind_msg" formatted="false">%s will join the conversation after they get the app. Keep in mind to remind them.</string>
+    <string name="s_no_grp_members" formatted="false">No group members yet.</string>
+    <string name="s_link_chatlist" formatted="false">[Link]</string>
+    <string name="s_notifications_chatlist" formatted="false">[Notifications]</string>
+    <string name="s_var_block_msg_noti" formatted="false">You won\'t receive messages from %s.</string>
+    <string name="s_pending" formatted="false">Pending</string>
+    <string name="s_renew" formatted="false">Renew</string>
+    <string name="s_grp_report" formatted="false">Are you sure you want to report this group?</string>
+    <string name="s_games_slogan" formatted="false">Play Games with Boo Family Monsters</string>
+    <string name="s_var_new_game" formatted="false">New game: %s</string>
+    <string name="s_bottle_intro" formatted="false">Bottles is an anonymous community that you can express yourself here with no worries and meet new friends from all over the world.</string>
+    <string name="s_pkb_welcome" formatted="false">Welcome to Peek-a-boo! See how many hearts you\'ll receive and chat with the friends who declare you!</string>
+    <string name="s_common_use" formatted="false">Use</string>
+
+
+
+    <!--Voice call -->
+    <string name="s_var_calling" formatted="false">Calling %s…</string>
+    <string name="s_awaiting_response" formatted="false">Awaiting response…</string>
+    <string name="s_var_sm1_calling" formatted="false">%s is calling you…</string>
+    <string name="s_connecting" formatted="false">Connecting…</string>
+    <string name="s_voice_call_confirmation" formatted="false">Are you sure you want to leave this conversation? In this way, your voice call will be ended.</string>
+    <string name="s_voice_camera" formatted="false">You can\'t use camera while you\'re voice calling.</string>
+    <string name="s_var_chatlist_voice_call" formatted="false">[Voice Call]</string>
+    <string name="s_var_ended" formatted="false">Ended %s</string>
+    <string name="s_missed" formatted="false">Missed</string>
+    <string name="s_call_declined" formatted="false">Call declined</string>
+    <string name="s_declined" formatted="false">Declined</string>
+    <string name="s_user_busy" formatted="false">User Busy</string>
+    <string name="s_call_not_answered" formatted="false">Call wasn\'t answered.</string>
+    <string name="s_line_busy" formatted="false">Line Busy</string>
+    <string name="s_call" formatted="false">Call</string>
+    <string name="s_var_call_number" formatted="false">%s may be a phone number.</string>
+    <string name="s_voice_voicenote" formatted="false">You can\'t send voice message while you\'re voice calling.</string>
+    <string name="s_voice_games" formatted="false">You can\'t play games while you\'re voice calling.</string>
+    <string name="s_play_voice" formatted="false">You can\'t play voice message while you\'re voice calling.</string>
+
+    <!--Group升级 -->
+    <string name="s_pin" formatted="false">Pin</string>
+    <string name="s_var_pinned" formatted="false">Pinned by %s</string>
+    <string name="s_pin_to_top" formatted="false">Pin to Top</string>
+    <string name="s_unpin_confirm" formatted="false">Are you sure you want to unpin?</string>
+    <string name="s_unpin" formatted="false">Unpin</string>
+    <string name="s_group_owner" formatted="false">Group Owner</string>
+    <string name="s_group_admins" formatted="false">Group Admins</string>
+    <string name="s_add_member_confirm" formatted="false">Are you sure you want to add %s as admin?</string>
+    <string name="s_dismiss_confirm" formatted="false">Are you sure you want to dismiss %s as admin?</string>
+    <string name="s_dismiss" formatted="false">Dismiss</string>
+    <string name="s_transfer_gm" formatted="false">Transfer Group Owner</string>
+    <string name="s_transfer_confirm" formatted="false">Are you sure you want to transfer the group owner to %s? In this way, you won\'t have any control over this group.</string>
+    <string name="s_transfer" formatted="false">Transfer</string>
+    <string name="s_var_set_grp_admin_msg" formatted="false">%s is set as group admin.</string>
+    <string name="s_you_group_admin" formatted="false">You are set as group admin.</string>
+    <string name="s_var_grp_manager" formatted="false">%s is now the group owner.</string>
+    <string name="s_you_group_owner" formatted="false">You are now the group owner.</string>
+    <string name="s_var_grp_dismiss" formatted="false">%s is dismissed as group admin.</string>
+    <string name="s_you_group_dismissed" formatted="false">You are dismissed as group admin.</string>
+    <string name="s_var_group_remove_you" formatted="false">%s remove you from the group.</string>
+    <string name="s_public_group_rules1" formatted="false">Welcome to the public group. Public group is a place that you can meet new friends with similar interests around the world.</string>
+    <string name="s_public_group_rules2" formatted="false">Public groups can be searched and found with tags. Anyone can join! Before you start we would like you to know inappropriate contents and behaviors are forbidden here.</string>
+    <string name="s_public_group_rules3" formatted="false"> If you break the rules and be reported, we\'ll block you after we confirm it. That means you can\'t join in any public groups ever. Please be respectful and friendly, now have fun!</string>
+    <string name="s_msg_block" formatted="false">This message has been blocked.</string>
+    <string name="s_var_grp_noti_remove" formatted="false">You\'re removed from %s.</string>
+    <string name="s_var_grp_noti_dismiss" formatted="false">You\'re dismissed as group admin of %s.</string>
+    <string name="s_var_grp_noti_admin" formatted="false">You\'re set as group admin of %s.</string>
+    <string name="s_var_grp_noti_manager" formatted="false">You\'re now the group owner of %s. </string>
+    <string name="s_var_approve_by" formatted="false">Approved by %s.</string>
+    <string name="s_var_group_owner_noti" formatted="false">You\'re now the group owner of %s.</string>
+    <string name="s_var_group_admin_noti" formatted="false">You\'re set as group admin of %s.</string>
+    <string name="s_pub_grp_sub" formatted="false">Join a group with similar interests</string>
+    <string name="s_no_more" formatted="false">No more</string>
+    <string name="s_pubgrp_settings" formatted="false">Public Group Settins</string>
+    <string name="s_pubgrp_rules" formatted="false">Public Group Rules</string>
+    <string name="s_refuse" formatted="false">Refuse</string>
+    <string name="s_agree" formatted="false">Agree</string>
+    <string name="s_cant_public_grp" formatted="false">You\'ve been disabled to use public groups currently.</string>
+    <string name="s_clear_noti" formatted="false">Are you sure you want to clear all notifications?</string>
+    <string name="s_pub_grp_not_exists" formatted="false">This group doesn\'t exists.</string>
+    <string name="s_member_exists" formatted="false">This member is already in the group.</string>
+
+
+    <!--Public Group -->
+    <string name="s_public_group" formatted="false">Public Group</string>
+    <string name="s_private_group" formatted="false">Private Group</string>
+    <string name="s_meet_booer_interests" formatted="false">Meet Booers with Common Interests</string>
+    <string name="s_pub_grp_tags" formatted="false">Public groups can be searched and found with tags by global. Anyone can join.</string>
+    <string name="s_sports" formatted="false">Sports</string>
+    <string name="s_social" formatted="false">Social</string>
+    <string name="s_music" formatted="false">Music</string>
+    <string name="s_dance" formatted="false">Dance</string>
+    <string name="s_pets" formatted="false">Pets</string>
+    <string name="s_games" formatted="false">Games</string>
+    <string name="s_learning" formatted="false">Learning</string>
+    <string name="s_fashion_beauty" formatted="false">Fashion &amp; Beauty</string>
+    <string name="s_meet_new_frd" formatted="false">Meet new friends</string>
+    <string name="s_create_pub_grp" formatted="false">Create a Public Group</string>
+    <string name="s_join_pub_grp" formatted="false">Join a Public Group</string>
+    <string name="s_grp_name" formatted="false">Group Name ( 50 chars)</string>
+    <string name="s_add_grp_photo" formatted="false">Oops! Please add a group profile photo.</string>
+    <string name="s_tags" formatted="false">Tags</string>
+    <string name="s_type_tag_interets" formatted="false">Type tags to make your group be discovered.</string>
+    <string name="s_type_tag" formatted="false">Type a tag</string>
+    <string name="s_tags_space" formatted="false">Press ‘Return\' on keyboard to split tags.</string>
+    <string name="s_grp_created" formatted="false"> Congrats! Your group has been created!</string>
+    <string name="s_add_grp_member" formatted="false">Add Group Members</string>
+    <string name="s_require_admin_appro" formatted="false">Require Admin Approval</string>
+    <string name="s_invite_note" formatted="false">When it is enabled, admins can approve new people that are not in the group. But people who are invited don\'t need to be approved.</string>
+    <string name="s_all_mem_invite_note" formatted="false">When it is enabled, all members can invite their friends to the group.</string>
+    <string name="s_require_admin_approval" formatted="false">This group requires admin\'s approval to join.</string>
+    <string name="s_request_join" formatted="false">Request to Join</string>
+    <string name="s_join_via_invite_code" formatted="false">Join via Invite Code</string>
+    <string name="s_code_failed_grp" formatted="false">Code Failed. Unable to join.</string>
+    <string name="s_send_request_join_grp" formatted="false">Send a request to join</string>
+    <string name="s_privacy_visibility" formatted="false">Privacy/Visibility</string>
+    <string name="s_my_account" formatted="false">My Account</string>
+    <string name="s_pub_grp_intro" formatted="false">Public groups can be searched and found with tags by global, anyone can join.</string>
+    <string name="s_pri_grp_intro" formatted="false">Private group can only be joined if you are invited or you have the invite code.</string>
+    <string name="s_pub_grp_settings" formatted="false">Public Group Settings</string>
+    <string name="s_change_pri_grp_confirm" formatted="false">You cannot choose to be public if your public groups are set to private groups.</string>
+    <string name="s_new_invite_code_generated" formatted="false">New invite code will be generated. The old code will be expired.</string>
+    <string name="s_report_confirm" formatted="false">Are you sure you want to report this Booer?</string>
+    <string name="s_report_warning" formatted="false">Warning! You\'ve been reported too many times. If you still don\'t watch your behaviors and languages, you\'ll be banned.</string>
+    <string name="s_user_banned" formatted="false">This user has been banned and can\'t create or join any public groups.</string>
+    <string name="s_grp_report_warning" formatted="false">Warning! Your %s group has been reported too many times. Please supervise the content in your group or it will be dissolved</string>
+    <string name="s_message_block" formatted="false">This message has been blocked.</string>
+    <string name="s_grp_dissolve" formatted="false">This group has been dissolved.</string>
+    <string name="s_var_grp_dissolve" formatted="false">The group (%s) has been dissolved</string>
+    <string name="s_report_pub_grp" formatted="false">Are you sure you want to report this public group?</string>
+    <string name="s_request_join_grp_noti" formatted="false">%s requests to join %s.</string>
+    <string name="s_request_sent" formatted="false">Request Sent</string>
+    <string name="s_cant_deal_reqest" formatted="false">You can\'t deal with the request.</string>
+    <string name="s_booer_banned" formatted="false">Some booer have been disabled to use public groups currently</string>
+
+
+
+    <!--Websites -->
+    <string name="s_cp_url" formatted="false">Copy URL</string>
+    <string name="s_refresh" formatted="false">Refresh</string>
+    <string name="s_lk_copied" formatted="false">Link Copied</string>
+    <string name="s_op_browser" formatted="false">Open with Browser</string>
+    <string name="s_op_safari" formatted="false">Open in Safari</string>
+    <string name="s_feedback_prevent" formatted="false">Your feedback will help us prevent links that lead to unsafe websites.</string>
+    <string name="s_spam" formatted="false">Spam</string>
+    <string name="s_excessive_ads" formatted="false">Excessive or Disruptive Ads</string>
+    <string name="s_misleading_lk" formatted="false">Misleading Link</string>
+    <string name="s_nudity" formatted="false">Nudity</string>
+    <string name="s_other_websites" formatted="false">Other</string>
+    <string name="s_thx_feedback" formatted="false">Thanks for your feedback!</string>
+    <string name="s_security_alert" formatted="false">Security Alert</string>
+    <string name="s_lk_unsafe" formatted="false">The link you are trying to visit may be potentially unsafe. We recommend that you do not continue.</string>
+    <string name="s_continue_anyway" formatted="false">Continue anyway</string>
+    <string name="s_visit_unsafe_lk" formatted="false">Are you sure you want to visit this unsafe link?</string>
+    <string name="s_forbidden_visit" formatted="false">Forbidden to Visit</string>
+    <string name="s_lk_detected" formatted="false">The link that you are trying to visit is detected to be unsafe. The link is blocked and can\'t be visited.</string>
+    <string name="s_i_think_safe" formatted="false">I think it is safe.</string>
+    <string name="s_mark_link" formatted="false">Mark this link as safe? We will confirm and handle this as soon as possible.</string>
+    <string name="s_yes_its_safe" formatted="false">Yes, it\'s safe.</string>
+
+    <!--Discover -->
+    <string name="s_discover" formatted="false">Discover</string>
+    <string name="s_peek_a_boo" formatted="false">Peek-a-boo</string>
+    <string name="s_poll" formatted="false">Poll</string>
+    <string name="s_pab_without_phone" formatted="false">Without your phone number, you couldn\'t receive notifications of New. Peek-a-boo uses your phone number to send notifications. Please enter your phone number in the “Settings” on BOO!.</string>
+    <string name="s_pab_invalid_contacts" formatted="false">It seems Peek-a-boo is not available for you currently.</string>
+    <string name="s_pab_for_friends" formatted="false">Peek-a-boo is for friends</string>
+    <string name="s_pkb_no_contacts" formatted="false">Peek-a-boo is more fun with friends. Add them in your contact or invite them to BOO!</string>
+    <string name="s_pab_requires_contacts_access" formatted="false">Peek-a-boo requires access to your Contacts to anonymous chat. Tap Settings to allow access. You can always disable it later.</string>
+    <string name="s_pls_stop" formatted="false">Please stop |270b|</string>
+    <string name="s_repo_2_time" formatted="false">You were reported over 2 times. You cannot use Peek-a-boo anymore.</string>
+    <string name="s_pab_line" formatted="false">Peek-a-boo,</string>
+    <string name="s_pab_see_who_hearts_you" formatted="false">See Who Hearts You!</string>
+    <string name="s_pab_create_answer_polls" formatted="false">Create &amp; Answer Polls With Schoolmates</string>
+    <string name="s_pab_chat_firends_who" formatted="false">Chat With Friends Who Give You Hearts</string>
+    <string name="s_pab_send_anon_msg" formatted="false">Send Anonymous Messages, and Have Fun!</string>
+    <string name="s_pab_rules" formatted="false">Community Rules</string>
+    <string name="s_pab_rules_1" formatted="false">1. Always be positive and say something nice! |1f60a|</string>
+    <string name="s_pab_rules_2" formatted="false">2. Please behave yourself and keep friendly! |1f46b|</string>
+    <string name="s_pab_rules_3" formatted="false">3. If you are reported by your friends, your account may be suspended. |270b|</string>
+    <string name="s_pab_rules_4" formatted="false">4. We have zero-tolerance against cyber-bullying, inappropriate discussions, or any subjective content! |1f645|</string>
+    <string name="s_pab_choose_gender_first" formatted="false">Now choose your gender first,</string>
+    <string name="s_pab_and_play_anon" formatted="false">and play anonymously!</string>
+    <string name="s_pab_req_frd" formatted="false">Peek-a-boo requires at least 2 friends of your Contacts to anonymous chat.</string>
+
+    <!--Quiz battle -->
+    <string name="s_quiz_battle" formatted="false">Quiz Battle</string>
+    <string name="s_forward_booers" formatted="false">Forward to Booers</string>
+    <string name="s_share_more" formatted="false">Share to friends</string>
+    <string name="s_copy_link" formatted="false">Copy Link</string>
+    <string name="s_fight_card" formatted="false">Fight for your school</string>
+    <string name="s_won_score_card" formatted="false">I\'ve won %s for my school, and my school ranks NO.%s. Your turn!</string>
+    <string name="s_var_added_score_sms" formatted="false">I added %s to rise our school ranks! Come and join the battle together, fight for school!</string>
+    <string name="s_invite_battle_sms" formatted="false">I am battling for my school in this Quiz Battle. Join now to fight for your school glory!</string>
+    <string name="s_requies_latest_version" formatted="false">**This requries the latest the version. Please update.**</string>
+
+    <!--Peek-a-boo Polls -->
+    <string name="s_new" formatted="false">New</string>
+    <string name="s_pab_not_ava" formatted="false">Oops, it seems Peek-a-boo is\nnot available for you currently.</string>
+    <string name="s_no_msg_yet" formatted="false">No messages yet? |1f602|\nDo some polls and invite more people to join with you!</string>
+    <string name="s_poll_inapp" formatted="false">It\'s inappropriate.</string>
+    <string name="s_repo_thx" formatted="false">Thank you for reporting a concern.</string>
+    <string name="s_var_check_back" formatted="false">Check back in %smin(s) %ss</string>
+    <string name="s_poll_unlock_question" formatted="false">Unlock Questions Now!</string>
+    <string name="s_create_poll" formatted="false">Create a Poll</string>
+    <string name="s_make_poll_ask" formatted="false">Make a poll by asking a question. |1f481|‍♀️</string>
+    <string name="s_pls_note" formatted="false">Please note: Remember to be nice!</string>
+    <string name="s_inapp_words" formatted="false"> Your question contains inappropriate words. Watch your language or you\'ll be suspended! |1f46e|</string>
+    <string name="s_add_frd" formatted="false">Add Friends</string>
+    <string name="s_add_2_frd" formatted="false">Add at least 2 friends</string>
+    <string name="s_ts_taylor_swift" formatted="false">T.S|274c|  Taylor Swift |2705|</string>
+    <string name="s_avoid_confusion" formatted="false">Make sure to edit the full name of your friends to avoid confusion.</string>
+    <string name="s_inapp_name" formatted="false">The name contains inappropriate words. Watch your language or you\'ll be suspended! |1f46e|</string>
+    <string name="s_abd_poll" formatted="false">Are you sure you want to abandon your legendary poll?</string>
+    <string name="s_slt" formatted="false">Select:</string>
+    <string name="s_frd_rev_poll" formatted="false">Your poll has been created! Your friends will receive the poll.</string>
+    <string name="s_anon_chat" formatted="false">Anonymous Chat</string>
+    <string name="s_anon_msg" formatted="false">Anonymous Message</string>
+    <string name="s_say_smt" formatted="false">Say something honestly to a friend... \n(100% anonymous)</string>
+    <string name="s_slt_say_smt" formatted="false">Select a friend from your Contacts to say something anonymously.</string>
+    <string name="s_anon_sent" formatted="false">Anonymous Message Sent</string>
+    <string name="s_person_rev_msg" formatted="false">The person will receive your anonymous message.</string>
+    <string name="s_rev_heart" formatted="false">Received Hearts</string>
+    <string name="s_var_from_pick" formatted="false">From a %s who picked you</string>
+    <string name="s_var_sm1_pick_you" formatted="false">A %s \npicked you in the poll</string>
+    <string name="s_var_from_message" formatted="false">From a %s who messaged you</string>
+    <string name="s_var_sm1_message_you" formatted="false">A %s \nsent you an anonymous message.</string>
+    <string name="s_dld_boo" formatted="false">Download BOO!</string>
+    <string name="s_share_see_who_you" formatted="false">See Who Hearts You!</string>
+    <string name="s_share_boo_url" formatted="false">www.boo.chat</string>
+    <string name="s_0_tolerance" formatted="false">We have zero-tolerance against cyber-bullying, inappropriate discussions, or any subjective content! Once you are reported, your account may be suspended permanently.</string>
+    <string name="s_if_keep_know_you" formatted="false">If your keep going, this guy will know who you are.</string>
+    <string name="s_type_msg" formatted="false">Type a message...</string>
+    <string name="s_del_chat" formatted="false">Are you sure to delete this chat? This will clear all messages.</string>
+    <string name="s_sure_repo" formatted="false">Are you sure you want to report?</string>
+    <string name="s_var_hey_pick_chat" formatted="false">Hey! |1f608| You picked me in the poll!\n%s\nNow let\'s chat, and tell me who you are.</string>
+    <string name="s_var_hey_anon_msg" formatted="false">Hey! |1f608| You sent me an anonymous message!\n%s\nNow let\'s chat, and tell me who you are.</string>
+    <string name="s_no_news_yet" formatted="false">No news yet? Do more polls to get the chance. |1f618|</string>
+    <string name="s_finish_all_polls" formatted="false">You\'ve finished all the polls. We are bringing you more soon. Please check it later.</string>
+    <string name="s_pls_create_poll" formatted="false">Please create a poll</string>
+    <string name="s_tap_create_polls" formatted="false">Tap to create polls and chat anonymously!</string>
+    <string name="s_rejected_by_receiver" formatted="false">Your message has been rejected by the receiver.</string>
+    <string name="s_reported_this_msg" formatted="false">You\'ve reported this conversation for inappropriate content, so you can\'t send messages right now.</string>
+    <string name="s_chat_mate_repo_msg" formatted="false">Your chat mate was reported over 2 times. You can not chat with this person any more.</string>
+
+
+
+    <!--BFF TEST -->
+    <string name="s_bff_for_frd" formatted="false">BFF TEST is for friends</string>
+    <string name="s_bff_requires_contact_access" formatted="false">BFF TEST requires access to your Contacts find friends to play. Tap Settings to allow access. You can always disable it later.</string>
+    <string name="s_allow_bff_contacts_later" formatted="false">Allow Contacts access in Settings-&gt;Apps-&gt;BOO! to find more friends? BFF TEST requires access to your Contacts find friends to play. Tap Settings to allow access. You can always disable it later.</string>
+    <string name="s_net_error_again" formatted="false">Network error, please try again.</string>
+    <string name="s_bff_test" formatted="false">BFF Test</string>
+    <string name="s_score" formatted="false">Score</string>
+    <string name="s_you_ans_is" formatted="false">Your answer is...</string>
+    <string name="s_invite_your_frd" formatted="false"> Invite Your Friends</string>
+    <string name="s_no_frd_invite_challenge" formatted="false">No friends yet?\nInvite friends to challenge your friendship now!</string>
+    <string name="s_your_turn" formatted="false">MY TURN</string>
+    <string name="s_their_turn" formatted="false">THEIR TURN</string>
+    <string name="s_you_create_test_1" formatted="false">You need to create tests first. |1f605|</string>
+    <string name="s_nudge" formatted="false">Nudge</string>
+    <string name="s_nudged" formatted="false">Nudged</string>
+    <string name="s_interest_finished_all_create" formatted="false">Seems like your tests are so interesting, your friend has finished them all. Create more!</string>
+    <string name="s_chall_play_get_here" formatted="false">I am challenging you to play. Join me and let\'s see which one of us know the other better! Get it here! %s</string>
+    <string name="s_chall_play_test_boo" formatted="false">I am challenging you to answer my BFF Test about “%s”. Let\'s see which one of us know the other better!</string>
+    <string name="s_chall_play_test_contacts" formatted="false">I am challenging you to answer my BFF Test about “%s”. Join me and let\'s see which one of us know the other better! Get it here! %s</string>
+    <string name="s_var_s_test" formatted="false">\'s Tests</string>
+    <string name="s_nudge_friends_create" formatted="false">Nudge friends to create tests.</string>
+    <string name="s_common_answered" formatted="false">Answered</string>
+    <string name="s_var_bingo" formatted="false">Bingo!  +%s</string>
+    <string name="s_otherword_out_word" formatted="false">Otherworldly!\nThis friendship is out of this world.</string>
+    <string name="s_var" formatted="false">%s</string>
+    <string name="s_kinda_friends" formatted="false">Kinda Friends.</string>
+    <string name="s_two_know_not_well" formatted="false">Kinda Friends.\nThese two know each other, but not that well.</string>
+    <string name="s_frd_progress" formatted="false">Friends in Progress!\nNot BFFs yet, but it will eventually become that.</string>
+    <string name="s_not_will_become" formatted="false">Not BFFs yet, but it will eventually become that.</string>
+    <string name="s_" formatted="false">So Bright!</string>
+    <string name="s_shines_as_sun" formatted="false">This friendships shines bright as the sun!</string>
+    <string name="s_bff" formatted="false">BFF!</string>
+    <string name="s_bright" formatted="false">So Bright!\nThis friendships shines bright as the sun!</string>
+    <string name="s_nothing_these_2" formatted="false">BFF!\nNothing can separate these two!</string>
+    <string name="s_tell_friends" formatted="false">Tell Your Friends</string>
+    <string name="s_frd_answered" formatted="false">Friend Answered</string>
+    <string name="s_var_frd_answered" formatted="false">Friends Answered</string>
+    <string name="s_frd_nudged" formatted="false">friend nudged</string>
+    <string name="s_var_frd_nudged" formatted="false">friends nudged</string>
+    <string name="s_var_got_test_turn" formatted="false">Hey! I got %s on your “%s” of BFF Test! Now it\'s your turn! |1f618|</string>
+    <string name="s_rank_list" formatted="false">RANK LIST</string>
+    <string name="s_var_s_bff" formatted="false">%s\'s BFF</string>
+    <string name="s_var_frd_answered_new" formatted="false">%s Friends answered</string>
+    <string name="s_1_frd_answered" formatted="false">1 Friend answered</string>
+    <string name="s_common_my" formatted="false">My</string>
+    <string name="s_my_test" formatted="false">My Tests</string>
+    <string name="s_no_tests_yet" formatted="false">No tests yet.</string>
+    <string name="s_no_yet_create_test" formatted="false"> No tests yet?\n Create your first test now!</string>
+    <string name="s_tap_create_test" formatted="false">Tap here to create a test!</string>
+    <string name="s_create_test" formatted="false">Create a Test</string>
+    <string name="s_slt_start_test" formatted="false">Select From Categories to Start the BFF Test</string>
+    <string name="s_bring_test_tuned" formatted="false">|1f602| We are bringing more tests for you! Stay tuned.</string>
+    <string name="s_var_answered" formatted="false">%s answered</string>
+    <string name="s_no_invite_challenge_frdship" formatted="false">No answers yet?\n Invite friends to challenge your friendship now!</string>
+    <string name="s_unlock_play" formatted="false">Unlock Now to Play! |1f60b|</string>
+    <string name="s_invite_we_unlock_this" formatted="false">Invite %s friend to play, and we\'ll unlock this special category.</string>
+    <string name="s_invite_var_we_unlock_this" formatted="false">Invite %s friends to play, and we\'ll unlock this special category.</string>
+    <string name="s_least_frds_play" formatted="false">At Least %s Friend to Play</string>
+    <string name="s_no_frd_unvite_better" formatted="false">No friends yet? That\'s ok...Invite them now to see which of your friends know you better!</string>
+    <string name="s_least_var_frds_play" formatted="false">At Least %s Friends to Play</string>
+    <string name="s_have_least_unlock_auto" formatted="false">You have to have at least %s friend to play “%s”, and we will unlock this special category automatically.</string>
+    <string name="s_have_least_var_unlock_auto" formatted="false">You have to have at least %s friends to play “%s”, and we will unlock this special category automatically.</string>
+    <string name="s_add_own_answer" formatted="false">+ Add your own answer…</string>
+    <string name="s_create_test_next" formatted="false">Next</string>
+    <string name="s_rank_add" formatted="false">+Add</string>
+    <string name="s_your_test_created" formatted="false">Your tests has been created!</string>
+    <string name="s_tell_frd_play" formatted="false">Tell Friends to Play</string>
+    <string name="s_common_congrats" formatted="false">Congrats! |1f44f|</string>
+    <string name="s_test_sent_frd" formatted="false">This test has been sent to your friends!</string>
+    <string name="s_common_rank" formatted="false">Rank</string>
+    <string name="s_common_bff" formatted="false">BFF</string>
+    <string name="s_everyone_else" formatted="false">EVERYONE ELSE</string>
+    <string name="s_no_frds_nudge" formatted="false">No friends yet? Nudge them to play now.</string>
+    <string name="s_var_rank" formatted="false">\'s Rank</string>
+    <string name="s_common_add" formatted="false">Add</string>
+    <string name="s_no_bff_yet" formatted="false">No friends yet.</string>
+    <string name="s_bff_award" formatted="false">BFF Award</string>
+    <string name="s_frdship_award" formatted="false">Friendship Award</string>
+    <string name="s_desting_frdship_meant" formatted="false">Destiny! This friendship was meant to be!</string>
+    <string name="s_party_awesome" formatted="false">Party Time! These two are awesome friends.</string>
+    <string name="s_sauce_frdship_like_pizza" formatted="false">Awesome Sauce! This friendship is awesome just like pizza.</string>
+    <string name="s_strange_make_work" formatted="false">It seems strange. But you two can make it work!</string>
+    <string name="s_share_now" formatted="false">Share Now!</string>
+    <string name="s_share_bff_test" formatted="false">The BFF Test</string>
+    <string name="s_share_bff_test_1" formatted="false">Test Your Friendship!</string>
+
+    <!--Friends -->
+    <string name="s_common_members" formatted="false">%s members</string>
+    <string name="s_common_1_member" formatted="false">1 member</string>
+    <string name="s_no_frd_pend" formatted="false">No more friends pending?</string>
+    <string name="s_tap_find_frd" formatted="false">Tap to find more friends!</string>
+    <string name="s_search_tap_to" formatted="false">Tap</string>
+    <string name="s_tap" formatted="false">Tap</string>
+    <string name="s_find_frd" formatted="false">to find more friends!</string>
+    <string name="s_user_phone_number" formatted="false">Username/Phone Number</string>
+    <string name="s_var_my_username" formatted="false">My Username: </string>
+    <string name="s_scan_boocode" formatted="false">Scan Boocard</string>
+    <string name="s_scan_frd_boocode" formatted="false">Scan friend\'s Boocard</string>
+    <string name="s_scan_frd_boocode_add" formatted="false">Scan a friend\'s Boocard to add them.</string>
+    <string name="s_my_boocode" formatted="false">My Boocard</string>
+    <string name="s_add_contacts" formatted="false">Add Contacts</string>
+    <string name="s_add_frd_from_contact" formatted="false">Add friends from Contacts</string>
+    <string name="s_same_network" formatted="false">Same Network</string>
+    <string name="s_add_frd_same_wifi" formatted="false">Add friends connecting to the same WIFI</string>
+    <string name="s_see_all" formatted="false">See All</string>
+    <string name="s_rpt_bug" formatted="false">Report Bugs</string>
+    <string name="s_complains" formatted="false">Complains</string>
+    <string name="s_survey" formatted="false">Survey</string>
+    <string name="s_full_name" formatted="false">Full Name</string>
+    <string name="s_block_list" formatted="false">Blocklist</string>
+    <string name="s_edit_full_name" formatted="false">Edit Full Name</string>
+    <string name="s_unblock" formatted="false">Unblock</string>
+    <string name="s_show_my_boocode" formatted="false">Show my Boocard</string>
+    <string name="s_share_username" formatted="false">Share Username</string>
+    <string name="s_send_frd_username" formatted="false">Send your friends your username</string>
+    <string name="s_search_phone_num" formatted="false">Search Phone Number</string>
+    <string name="s_search_username" formatted="false">Search Username</string>
+    <string name="s_search_email" formatted="false">Search Email</string>
+    <string name="s_var_edit_name" formatted="false">Edit Name for %s</string>
+    <string name="s_remove_frd" formatted="false">Remove Friend</string>
+    <string name="s_var_want_to_remove" formatted="false">Are you sure you want to remove %s as a friend?</string>
+    <string name="s_common_frd_contacts" formatted="false">Friends in Contacts</string>
+    <string name="s_toggle_contact_access" formatted="false">Tap Yes bellow and go to \"Settings\" and toggle on Contacts access.</string>
+    <string name="s_var_has_friends_boo" formatted="false">has %s friends on BOO!</string>
+    <string name="s_has_1_friend_boo" formatted="false">has 1 friend on BOO!</string>
+    <string name="s_var_add_hello_msg" formatted="false">I am %s</string>
+    <string name="s_friend_request_expired" formatted="false">Sorry, but the friend request has expired.</string>
+    <string name="s_remind_friend" formatted="false">Remind Your Friend</string>
+    <string name="s_wait_friend_long_time" formatted="false">Your friend is waiting for you for a long time.|1f494| They may not be responding your request instantly. Let them know right now!</string>
+    <string name="s_var_wait_talk" formatted="false">I\'m on BOO! Can\'t wait to talk to you. %s |2764|️</string>
+    <string name="s_friend_veri" formatted="false">Friend Verification</string>
+    <string name="s_send_friend_request_1" formatted="false">Send friend request first.</string>
+    <string name="s_rev_you_request" formatted="false">May not receive your request.</string>
+    <string name="s_add_me_on_boo" formatted="false">Add me on BOO!</string>
+
+
+    <!--Days -->
+    <string name="s_common_boos" formatted="false">Boos</string>
+    <string name="s_common_detail" formatted="false">Details</string>
+    <string name="s_common_failed" formatted="false">Failed</string>
+    <string name="s_common_school_t" formatted="false">s School</string>
+    <string name="s_record_share_frd" formatted="false">Share Days Together At School</string>
+    <string name="s_web_var_comment_post" formatted="false">%s commented on your post in Days.</string>
+    <string name="s_web_var_reply_comment" formatted="false">%s replied to your comment in Days.</string>
+    <string name="s_web_var_followed_you" formatted="false">%s followed you in Days.</string>
+    <string name="s_web_var_liked_you_post" formatted="false">%s liked your post in Days.</string>
+    <string name="s_web_var_add_new_days" formatted="false">%s just added a new post in Days.</string>
+    <string name="s_switch_share_disc" formatted="false">Hey, let\'s switch to BOO!, where we can share moments of the day, follow friends and discover what happening at school! Get it free now!</string>
+    <string name="s_common_days" formatted="false">Days</string>
+    <string name="s_var_1_post" formatted="false">1 Post</string>
+    <string name="s_var_posts" formatted="false">%s Posts</string>
+    <string name="s_today" formatted="false">Today</string>
+    <string name="s_yesterday" formatted="false">Yesterday</string>
+    <string name="s_var_month_date" formatted="false">%s/%s</string>
+    <string name="s_common_sending" formatted="false">Sending...</string>
+    <string name="s_1_comment_new" formatted="false">1 New Comment</string>
+    <string name="s_my_days" formatted="false">My Days</string>
+    <string name="s_var_followers" formatted="false">%s followers</string>
+    <string name="s_1_follower" formatted="false">1 follower</string>
+    <string name="s_0_follower" formatted="false">0 follower</string>
+    <string name="s_var_following" formatted="false">%s following</string>
+    <string name="s_common_frds_comment" formatted="false">Friend\'s Comments</string>
+    <string name="s_common_follow" formatted="false">Follow</string>
+    <string name="s_common_unfollow" formatted="false">Unfollow</string>
+    <string name="s_seems_hasnt_any_boos" formatted="false">It seems like sNickname hasn\'t added any posts yet!</string>
+    <string name="s_common_following" formatted="false">Following</string>
+    <string name="s_following" formatted="false">following</string>
+    <string name="s_common_follower" formatted="false">Follower</string>
+    <string name="s_common_followers" formatted="false">Followers</string>
+    <string name="s_no_followers" formatted="false">No followers yet.</string>
+    <string name="s_common_comments" formatted="false">Comments</string>
+    <string name="s_no_comments" formatted="false">No comments yet.</string>
+    <string name="s_content_del" formatted="false">Content deleted.</string>
+    <string name="s_common_clear_all" formatted="false">Clear All</string>
+    <string name="s_load_more" formatted="false">Load More</string>
+    <string name="s_var_like" formatted="false">Like %s</string>
+    <string name="s_var_comment" formatted="false">Comment %s</string>
+    <string name="s_var_likes" formatted="false">Likes %s</string>
+    <string name="s_var_comments" formatted="false">Comments %s</string>
+    <string name="s_frd_comments" formatted="false">Friend\'s Comments</string>
+    <string name="s_1_new_comment" formatted="false">1 Comment</string>
+    <string name="s_var_comment_new" formatted="false">%s New Comments</string>
+    <string name="s_reported" formatted="false">Reported.</string>
+    <string name="s_add_comment" formatted="false">Add a comment...</string>
+    <string name="s_no_comments_yet" formatted="false">No comments yet.</string>
+    <string name="s_no_likes" formatted="false">No likes yet.</string>
+    <string name="s_sure_report_boos" formatted="false">Are you sure to report this post?</string>
+    <string name="s_sure_delete_boos" formatted="false">Are you sure to delete this post?</string>
+    <string name="s_add_to_days" formatted="false">Add to Your Days?</string>
+    <string name="s_add_days_allow_time" formatted="false">Adding a post to your Days allows your followers to view your posts an unlimited number of times. Would you like to add this post to your Days?</string>
+    <string name="s_add_posts_days" formatted="false">No posts yet?</string>
+    <string name="s_add_post_days_now" formatted="false">Add your posts to your Days now!</string>
+    <string name="s_no_posts_yet" formatted="false">No posts yet.</string>
+    <string name="s_no_invite_record_together" formatted="false">No followers yet？\nDon\'t worry. Invite friends to share Days together.</string>
+    <string name="s_no_following_y" formatted="false">No following yet.</string>
+    <string name="s_no_frds_keep_up" formatted="false">No following yet?</string>
+    <string name="s_follow_frd_keep" formatted="false">Follow friends and keep up with them.</string>
+    <string name="s_seems_school_empty" formatted="false">Seems like your school info is empty.</string>
+    <string name="s_miss_fun_complete_happ" formatted="false">Never miss the fun at your school. Complete your school info now to follow schoolmates and discover what\'s happening.</string>
+    <string name="s_sure_repo_post" formatted="false">Are you sure to report this post?</string>
+    <string name="s_tell_frd_add_post" formatted="false">Tell your friends to add posts now</string>
+
+    <!--Days 2.0 -->
+    <string name="s_recd_discs_chool" formatted="false">Share all the moments of your Day. Follow friends to see what\'s up to. And Discover what\'s happening at your school.</string>
+    <string name="s_school_20_unlock" formatted="false">Your school feed appears here. 20 booers from your school to unlock.</string>
+    <string name="s_var_booer_school" formatted="false">%s Booers at Your School </string>
+    <string name="s_1_booer_school" formatted="false">1 Booer at Your School</string>
+    <string name="s_web_app_happen_join" formatted="false">There\'s a new app called BOO! where you can see what\'s happening at schools. You need to join.</string>
+    <string name="s_boer_scan_as_frd" formatted="false">Booers can scan your Boocard to add\nyou as a friend.</string>
+    <string name="s_storage_lack" formatted="false">Insufficient Storage</string>
+    <string name="s_storage" formatted="false">Storage</string>
+    <string name="s_go_clr_storage" formatted="false">Insufficient storage available. Please go to \"General Management\" or \"Settings\" --&gt; \"Storage\" to manage your storage by deleting some files, apps or clearing cache.</string>
+    <string name="s_follower" formatted="false">follower</string>
+    <string name="s_followers" formatted="false">followers</string>
+    <string name="s_days_share" formatted="false">Hey, let\'s switch to BOO!, where we can share moments of the day, follow friends and discover what happening at school! Get it free now!. %s</string>
+
+    <!--Days 2.2 -->
+    <string name="s_comment_sent" formatted="false">Comment Sent</string>
+    <string name="s_var_liked" formatted="false">and %s others liked.</string>
+    <string name="s_common_likes" formatted="false">Likes</string>
+    <string name="s_common_notifications" formatted="false">Notifications</string>
+    <string name="s_days_mute" formatted="false">Days from Friends</string>
+    <string name="s_days_mute_desc" formatted="false">Get occasional notifications about Days so you don\'t miss any fun from friends and schoolmates.</string>
+    <string name="s_failed" formatted="false">Failed. Please check your network.</string>
+    <string name="s_school_unlucked_welcome" formatted="false">Your school is unlocked. \nNow keep up with your schoolmates and have fun together.</string>
+    <string name="s_web_school_unlocked_push" formatted="false">Congrats! Your “s school” is unlocked in Days. Join your schoolmates now.</string>
+
+    <!--Days 2.3 -->
+    <string name="s_remove_followers" formatted="false">Remove Followers</string>
+    <string name="s_var_remove_followers_content" formatted="false">BOO! won\'t tell %s they were removed from your followers.</string>
+    <string name="s_common_reply" formatted="false">Reply</string>
+    <string name="s_push_turn_off" formatted="false">Are you sure you want to turn off the notifications from Days in this way you won\'t get notified when there\'s a new post sharing by friends?</string>
+    <string name="s_var_tagged" formatted="false">%s tagged you in a post.</string>
+    <string name="s_web_var_tagged" formatted="false">%s just tagged you in a post in Days.</string>
+    <string name="s_1_new_noti" formatted="false">1 New Notification</string>
+    <string name="s_var_new_noti" formatted="false">%s New Notifications</string>
+    <string name="s_var_voted" formatted="false">%s voted %s.</string>
+
+    <!--Day 2.4 -->
+    <string name="s_user_not_found" formatted="false">User not found</string>
+
+    <!--Days 2.5 -->
+    <string name="s_days_slogan" formatted="false">Share Your Daily Story</string>
+    <string name="s_days_welcome" formatted="false">Days is a personal social network not a public social media. Only the friends you accept can see your posts. It\'s private and safe. Share your daily life with close friends, and see what they\'re up to.</string>
+    <string name="s_invite_friends" formatted="false">More Friends. More Fun.</string>
+    <string name="s_days_settings" formatted="false">Days Settings</string>
+    <string name="s_frd_days_profile" formatted="false">Days is only visible to friends.</string>
+    <string name="s_post_notification" formatted="false">Post Notifications</string>
+    <string name="s_days_push_intro" formatted="false">If disabled, you won\'t receive any post notifications from your friends.</string>
+    <string name="s_days_welcome_title" formatted="false">Share Your Day &amp; See What Friends Up to</string>
+    <string name="s_days_welcome_content" formatted="false">Share your story of daily life. Follow your friends to see what\'s up to. And Let\'s hang.</string>
+    <string name="s_days_info" formatted="false">Days is a personal social network. Only the friends you accept can see your posts. Share your daily stories in Days now! And see what friends are up to.</string>
+
+
+    <!--Game -->
+    <string name="s_no_but_me" formatted="false">WOO! Nothing here, but me.</string>
+    <string name="s_loss_games" formatted="false">Game Center</string>
+    <string name="s_return" formatted="false">Return</string>
+    <string name="s_common_start_match" formatted="false">Start Matching</string>
+    <string name="s_common_invite_frd" formatted="false">Invite Friends to Play</string>
+    <string name="s_matching" formatted="false">Matching...</string>
+    <string name="s_var_countdown_s" formatted="false">Countdown %ss</string>
+    <string name="s_match_found_start" formatted="false">Match found. Ready to start the game.</string>
+    <string name="s_common_gender" formatted="false">Gender</string>
+    <string name="s_sure_exit_game" formatted="false">Are you sure to quit?</string>
+    <string name="s_common_victory" formatted="false">Victory</string>
+    <string name="s_change_opponent" formatted="false">Change an Opponent</string>
+    <string name="s_1_more_round" formatted="false">One More Round</string>
+    <string name="s_common_defeat" formatted="false">Defeat</string>
+    <string name="s_common_wait_respond" formatted="false">Wait for Responding</string>
+    <string name="s_opponent_left" formatted="false">Your Opponent Left</string>
+    <string name="s_common_cancelled" formatted="false">Cancelled</string>
+    <string name="s_common_expired" formatted="false">Expired</string>
+    <string name="s_common_1_round" formatted="false">One More Round</string>
+    <string name="s_common_loading" formatted="false">Loading...</string>
+    <string name="s_loading" formatted="false">Loading</string>
+    <string name="s_playing" formatted="false">Playing</string>
+    <string name="s_common_game_over" formatted="false">GAME OVER</string>
+    <string name="s_common_draw" formatted="false">Draw</string>
+    <string name="s_change_rival" formatted="false">Change a Rival</string>
+    <string name="s_c_accept" formatted="false">Accept</string>
+    <string name="s_challenge_game_beat" formatted="false">I\'m challenging you on this game! Join and battle me. Add Me:</string>
+    <string name="s_somebody_play" formatted="false">Somebody is playing right now. Catch up next time.</string>
+
+    <!--Game 2.0 -->
+    <string name="s_battle_games" formatted="false">Battle Games</string>
+    <string name="s_challenge_games" formatted="false">Challenge Games</string>
+    <string name="s_top_contacts" formatted="false">Top Contacts</string>
+    <string name="s_top_schoolmates" formatted="false">Top Schoolmates</string>
+    <string name="s_ur_var_best_score" formatted="false">Season\'s Best: %s</string>
+    <string name="s_ur_var_score" formatted="false">Your Score: %s</string>
+    <string name="s_no_contacts" formatted="false">You\'re the only one here.\nInvite friends to play.</string>
+    <string name="s_1st_player" formatted="false">You\'re the first player.</string>
+    <string name="s_no_schoolmate" formatted="false">No schoolmates here.</string>
+    <string name="s_no_school_info" formatted="false">Your school info is empty.</string>
+    <string name="s_common_your_score" formatted="false">Your Score</string>
+    <string name="s_get_extra_life" formatted="false">Get an Extra life</string>
+    <string name="s_common_no_thanks" formatted="false">No, thanks.</string>
+    <string name="s_var_best_score" formatted="false">Best Score: %s</string>
+    <string name="s_new_best" formatted="false">New Best Score</string>
+    <string name="s_best_score" formatted="false">Best Score</string>
+    <string name="s_var_beat" formatted="false">You just beat %s friends.</string>
+    <string name="s_var_1_beat" formatted="false">You just beat %s friend.</string>
+    <string name="s_nice_try" formatted="false">Nice try!</string>
+    <string name="s_common_play_again" formatted="false">Play Again</string>
+    <string name="s_challenge_frd" formatted="false">Challenge Friends</string>
+    <string name="s_beat_score" formatted="false">Beat me in this game!</string>
+    <string name="s_var_score" formatted="false">[Games] I got %s in this game. Come beat my score!</string>
+    <string name="s_var_score_msg" formatted="false">I got %s in this game. Come beat my score!</string>
+    <string name="s_var_rank_challenge" formatted="false">You rank No. %s in this challenge.</string>
+    <string name="s_var_rank_no" formatted="false">No.</string>
+    <string name="s_var_chatroom_beat" formatted="false">You just beat %s players.</string>
+    <string name="s_var_chatroom_beat_1" formatted="false">You just beat %s player.</string>
+    <string name="s_beat_friend" formatted="false">You just beat your friend.</string>
+    <string name="s_var_start_challenge" formatted="false">%s started the challenge.</string>
+    <string name="s_var_h5_title" formatted="false">%s started the %s challenge.</string>
+    <string name="s_sms_card_game" formatted="false">Challenge Friends With Games</string>
+    <string name="s_replay" formatted="false">Replay</string>
+    <string name="s_invite_join" formatted="false">Invite</string>
+    <string name="s_new_challenge" formatted="false">Start a New Challenge</string>
+    <string name="s_no_player" formatted="false">Not enough player. Invite more!</string>
+    <string name="s_0_player" formatted="false">0 player</string>
+    <string name="s_1_player" formatted="false">1 player</string>
+    <string name="s_var_players" formatted="false">%s players</string>
+    <string name="s_common_leaderboard" formatted="false">Leaderboard</string>
+    <string name="s_link_copied" formatted="false">Link copied! Paste to share with your friends to join the challenge!</string>
+    <string name="s_common_edit_your_name" formatted="false">Enter Your Name</string>
+    <string name="s_edit_name" formatted="false">Edit a name that your friends know you by.</string>
+    <string name="s_var_challenge_text" formatted="false">I\'m playing this now. Come join the %s challenge with me!</string>
+    <string name="s_invite_players" formatted="false">More fun with more players!</string>
+    <string name="s_common_you" formatted="false">You</string>
+    <string name="s_game_not_available" formatted="false">This game is currently not available to play. Take it easy. Try another one?</string>
+    <string name="s_games_waiting" formatted="false">More fun games are waiting for you on BOO!.</string>
+    <string name="s_h5_game_subtitle" formatted="false">Battle With Friends With Real-time Games</string>
+    <string name="s_unable_to_play" formatted="false">You are unable to play while you are inviting others to play.</string>
+    <string name="s_failed_score" formatted="false">Failed to upload score.</string>
+    <string name="s_ranking_failed" formatted="false">Failed to load.</string>
+
+    <!-- Games 2.1 -->
+    <string name="s_common_invite_voi_cal" formatted="false">invites you to voice call</string>
+    <string name="s_common_decline" formatted="false">Decline</string>
+    <string name="s_common_awaiting_resp" formatted="false">Awaiting response…</string>
+    <string name="s_common_hang_up" formatted="false">Hang up</string>
+    <string name="s_common_speaker" formatted="false">Speaker</string>
+    <string name="s_common_mute" formatted="false">Mute</string>
+    <string name="s_no_games_self" formatted="false">No games played yet?\nChallenge friends with games now!</string>
+    <string name="s_no_games_others" formatted="false">No games played yet.</string>
+    <string name="s_no_recents_msg" formatted="false">No players here yet.\nStart matching now!</string>
+    <string name="s_favorites" formatted="false">Favorites</string>
+    <string name="s_location_acc_games" formatted="false">Enable Location Access to play games with friends nearby.</string>
+    <string name="s_48hrs_chat" formatted="false">The chats will be removed if you and players haven\'t been chatting in 48 hours.</string>
+    <string name="s_common_rules" formatted="false">Rules</string>
+    <string name="s_var_game_end_time" formatted="false">This season will be ending: %s.</string>
+    <string name="s_common_1st" formatted="false">1st</string>
+    <string name="s_common_2nd" formatted="false">2nd</string>
+    <string name="s_common_3rd" formatted="false">3rd</string>
+    <string name="s_common_4th" formatted="false">4th</string>
+    <string name="s_common_5th" formatted="false">5th</string>
+    <string name="s_common_6th" formatted="false">6th</string>
+    <string name="s_common_7th" formatted="false">7th</string>
+    <string name="s_common_8th" formatted="false">8th</string>
+    <string name="s_common_9th" formatted="false">9th</string>
+    <string name="s_common_10th" formatted="false">10th</string>
+    <string name="s_common_11th" formatted="false">11th</string>
+    <string name="s_common_12th" formatted="false">12th</string>
+    <string name="s_common_13th" formatted="false">13th</string>
+    <string name="s_common_14th" formatted="false">14th</string>
+    <string name="s_common_15th" formatted="false">15th</string>
+    <string name="s_common_16th" formatted="false">16th</string>
+    <string name="s_common_17th" formatted="false">17th</string>
+    <string name="s_common_18th" formatted="false">18th</string>
+    <string name="s_common_19th" formatted="false">19th</string>
+    <string name="s_common_20th" formatted="false">20th</string>
+    <string name="s_common_21st" formatted="false">21st</string>
+    <string name="s_common_22nd" formatted="false">22nd</string>
+    <string name="s_common_23rd" formatted="false">23rd</string>
+    <string name="s_common_24th" formatted="false">24th</string>
+    <string name="s_common_25th" formatted="false">25th</string>
+    <string name="s_common_26th" formatted="false">26th</string>
+    <string name="s_common_27th" formatted="false">27th</string>
+    <string name="s_common_28th" formatted="false">28th</string>
+    <string name="s_common_29th" formatted="false">29th</string>
+    <string name="s_common_30th" formatted="false">30th</string>
+    <string name="s_common_31st" formatted="false">31st</string>
+    <string name="s_not_listed" formatted="false">Not Listed</string>
+    <string name="s_ranking_list" formatted="false">Ranking List</string>
+    <string name="s_battle_rule_1" formatted="false">1. Each player will get 1000 scores at the very beginning of the season.</string>
+    <string name="s_battle_rule_2" formatted="false">2. You\'ll get 20 experience points if you win, and you\'ll lose 20 experience points if you lose.</string>
+    <string name="s_battle_rule_3" formatted="false">3. 1 season, 1 week. Each season will be ended on every Sunday 11:59:59 PM PST time.</string>
+    <string name="s_challenge_rule_1" formatted="false">1. 1 season, 1 week. Each season will be ended on every Sunday 11:59PM PST time.</string>
+    <string name="s_coop_rule_1" formatted="false">1. Co-op Games are for partners. You and your partner need to collaborate together to win experience points.</string>
+    <string name="s_coop_rule_2" formatted="false">2. 1 season, 1 week. The experience points will be zeroed when each season ends.</string>
+    <string name="s_level" formatted="false">Level</string>
+    <string name="s_level_intro" formatted="false">Play games with friends to win experience points. Experience points raise your level. The more experience points you earn, the higher level you get!</string>
+    <string name="s_badge" formatted="false">Badge</string>
+    <string name="s_badge_intro" formatted="false">You\'ll be awarded with the Badges while your levels hit up. And Badges recognize your unique game skills. The higher level you get, the higher badge you win.</string>
+    <string name="s_my_games" formatted="false">My Boo Play</string>
+    <string name="s_newbie" formatted="false">Newbie</string>
+    <string name="s_insider" formatted="false">Insider</string>
+    <string name="s_master" formatted="false">Master</string>
+    <string name="s_hero" formatted="false">Hero</string>
+    <string name="s_king" formatted="false">King</string>
+    <string name="s_legen_1" formatted="false">a ???</string>
+    <string name="s_chatroom_return" formatted="false">Return</string>
+    <string name="s_ranking_global" formatted="false">Global</string>
+    <string name="s_teamate_left" formatted="false">Change a Teamate</string>
+    <string name="s_your_tm_left" formatted="false">Your Teamate left</string>
+    <string name="s_level_shortform" formatted="false">LV</string>
+    <string name="s_level_1_10" formatted="false">Level 1-10</string>
+    <string name="s_level_11_20" formatted="false">Level 11-20</string>
+    <string name="s_level_21_30" formatted="false">Level 21-30</string>
+    <string name="s_level_31_40" formatted="false">Level 31-40</string>
+    <string name="s_level_41_50" formatted="false">Level 41-50</string>
+    <string name="s_level_51_60" formatted="false">Level 51-60</string>
+    <string name="s_var_win_rate" formatted="false">Win Rate: %s</string>
+    <string name="s_web_new_msg_games" formatted="false">You\'ve got a new message in Games.</string>
+    <string name="s_var_web_new_game" formatted="false">New game - %s is online! Have fun, together! |270c|️</string>
+    <string name="s_game_idea" formatted="false">If you\'ve got a good idea of game, I can probably make it happen!</string>
+    <string name="s_email_me" formatted="false">Email Me</string>
+    <string name="s_say_hi_games" formatted="false">Say Hi</string>
+    <string name="s_common_schoolmates" formatted="false">Schoolmates</string>
+    <string name="s_new_badge_unlocked" formatted="false">Congrats! You‘ve unlocked a new badge!</string>
+    <string name="s_new_level_unlocked" formatted="false">Congrats! You made it from %sI = %sII</string>
+    <string name="s_game_recents_rules" formatted="false">Be nice and be respectful. No swearing, No bullying and No cursing. If you find the one you chat do as above, please [Block]</string>
+
+    <!--Game 2.1.1 -->
+    <string name="s_reset_score" formatted="false">Are you sure you want to reset the score? Your current score will be cleared.</string>
+    <string name="s_reset" formatted="false">Reset</string>
+    <string name="s_split_games" formatted="false">Split Screen Games</string>
+    <string name="s_split_games1" formatted="false">Split Screen\nGames</string>
+
+    <string name="s_quit_game_score" formatted="false">Are you sure you want to quit the game? Your current score will be cleared.</string>
+
+    <!--Game 2.2 -->
+    <string name="s_share_to" formatted="false">Share to</string>
+    <string name="s_copy_paste_link" formatted="false">Or you can copy &amp; paste this link to groups, IG bio, Snapchat story, TW or FB to share with friends!</string>
+    <string name="s_view_girls_only" formatted="false">View girls only</string>
+    <string name="s_view_boys_ony" formatted="false">View boys only</string>
+    <string name="s_last_season" formatted="false">Last Season</string>
+    <string name="s_last_season_1" formatted="false">1.Last Season</string>
+    <string name="s_leaderboards" formatted="false">Leaderboards</string>
+    <string name="s_leaderboards_1" formatted="false">2.Leaderboards</string>
+    <string name="s_var_total_score" formatted="false">Total Score: %s</string>
+    <string name="s_hall_fame_contacts" formatted="false">HALL OF FAME</string>
+    <string name="s_cap_contatacts" formatted="false">CONTACTS</string>
+    <string name="s_cap_schoolmates" formatted="false">SCHOOLMATES</string>
+    <string name="s_cap_global" formatted="false">GLOBAL</string>
+    <string name="s_view_all" formatted="false">View All</string>
+    <string name="s_no_ranking_list" formatted="false">No ranking list yet.</string>
+    <string name="s_ranking" formatted="false">Ranking</string>
+    <string name="s_last_sn_rules_battle" formatted="false">For the ‘Battle Games\', it shows the ranks of players based on the scores in last season. 1 season, 1 week.</string>
+    <string name="s_last_sn_rules_challenge" formatted="false">For the ‘Challenge Games\', it shows the ranks of players based on the best scores in last season. 1 season, 1 week.</string>
+    <string name="s_leaderboards_rules_battle" formatted="false">For the ‘Battle Games\', it shows the ranks of players based on the total scores in each season.</string>
+    <string name="s_leaderboards_challenge" formatted="false">For the ‘Challenge Games\', it shows the ranks of players based on the best scores in all seasons.</string>
+
+    <!--Game 2.3 -->
+    <string name="s_daily_rewards" formatted="false">Daily Rewards</string>
+    <string name="s_hot_cap" formatted="false">HOT</string>
+    <string name="s_top_cap" formatted="false">TOP</string>
+    <string name="s_all_games" formatted="false">All Games</string>
+    <string name="s_check_in" formatted="false">Check In</string>
+    <string name="s_check_in_day" formatted="false">Check In(Day.%s)</string>
+    <string name="s_0_check_in" formatted="false">You\'ve been checked in: 0 day</string>
+    <string name="s_var_check_in" formatted="false">You\'ve been checked in: %s Days</string>
+    <string name="s_1_check_in" formatted="false">You\'ve been checked in: 1 Day</string>
+    <string name="s_refresh_monthly" formatted="false"> Refresh on 10th every monthh</string>
+    <string name="s_daily_tasks" formatted="false">Daily Tasks</string>
+    <string name="s_get" formatted="false">Get</string>
+    <string name="s_season_tasks" formatted="false">Season Tasks</string>
+    <string name="s_achievement_tasks" formatted="false">Achievement Tasks</string>
+    <string name="s_var_badges" formatted="false">%s badges</string>
+    <string name="s_var_badge" formatted="false">%s badge</string>
+    <string name="s_my_badges" formatted="false">My Badges</string>
+    <string name="s_badges" formatted="false">Badges</string>
+    <string name="s_my_bagdes_no_info" formatted="false">The players who reach the tier of Diamond, Master and King will gain the badge for souvenir at the end of the season of tier.</string>
+    <string name="s_var_obtaining_date" formatted="false">Obtaining Date: %s</string>
+    <string name="s_item_store" formatted="false">Item Store</string>
+    <string name="s_var_owned" formatted="false">Owned: %s</string>
+    <string name="s_use" formatted="false">Use</string>
+    <string name="s_var_purchase" formatted="false">Purchase: </string>
+    <string name="s_purchased" formatted="false">Purchased</string>
+    <string name="s_fail_phurchase" formatted="false">Failed to purchase.</string>
+    <string name="s_not_enough_coins" formatted="false">Not enough game coins</string>
+    <string name="s_tasks_cap" formatted="false">TASKS</string>
+    <string name="s_task_center" formatted="false">Tasks Center</string>
+    <string name="s_task_completed" formatted="false">Task Completed!</string>
+    <string name="s_you_gained" formatted="false">You Gained</string>
+    <string name="s_var_coins" formatted="false">%s game coins</string>
+    <string name="s_got_it" formatted="false">Got it!</string>
+    <string name="s_tiers_cap" formatted="false">TIERS</string>
+    <string name="s_end_of_season" formatted="false">The end of the season: %s</string>
+    <string name="s_all_seasons" formatted="false">All Seasons</string>
+    <string name="s_all_seasons_1" formatted="false">2.All Seasons</string>
+    <string name="s_tp" formatted="false">TP</string>
+    <string name="s_total_tp" formatted="false">Total TP</string>
+    <string name="s_var_total_tp" formatted="false">Total TP: %s</string>
+    <string name="s_tier_rules" formatted="false">1 season, 1 month and the tier points will be cleared on 1st every month(12:00 AM PST).</string>
+    <string name="s_bronze" formatted="false">Bronze</string>
+    <string name="s_silver" formatted="false">Silver</string>
+    <string name="s_gold" formatted="false">Gold</string>
+    <string name="s_platinum" formatted="false">Platinum</string>
+    <string name="s_diamond" formatted="false">Diamond</string>
+    <string name="s_db_tier_card" formatted="false">Double TP Card</string>
+    <string name="s_tier_1h" formatted="false">Get Double Tier Points by playing any games in 1 hour.</string>
+    <string name="s_tier_1d" formatted="false">Get Double Tier Points by playing any games in 1 day.</string>
+    <string name="s_tier_5d" formatted="false">Get Double Tier Points by playing any games in 5 days.</string>
+    <string name="s_extra_card" formatted="false">Extra Life Card</string>
+    <string name="s_extra_card_info" formatted="false">If you die in challenge games, you can get an extra life once and continue playing with this card.</string>
+    <string name="s_smoke" formatted="false">Smoke</string>
+    <string name="s_smoke_info" formatted="false">Block your opponent‘s sight for seconds. (Only for some Battle Games)</string>
+    <string name="s_shaker" formatted="false">Shaker</string>
+    <string name="s_shaker_info" formatted="false">Shake the screen of your opponent for seconds. (Only for some Battle Games)</string>
+    <string name="s_timesiider" formatted="false">Time-slider</string>
+    <string name="s_timeslider1" formatted="false">(Only for some Battle Games)</string>
+    <string name="s_timeslider_info" formatted="false">Reduce 50%% time of opponent\'s timer for 2 rounds.</string>
+    <string name="s_freezer" formatted="false">Freezer</string>
+    <string name="s_freezer_info" formatted="false">Freeze your opponent for seconds. (Only for some Battle Games)</string>
+    <string name="s_bright_diamond" formatted="false">The Bright Diamond</string>
+    <string name="s_bringt_diamond_info" formatted="false">You will get the badge of The Bright Diamond when you reach the Diamond Tier(repeatable) at the end of the season.</string>
+    <string name="s_master_honer" formatted="false">The Master Honer</string>
+    <string name="s_master_honer_info" formatted="false">You will get the badge of The Master Honer when you reach the Master Tier(repeatable) at the end of the season.</string>
+    <string name="s_king_game" formatted="false">The King of Game</string>
+    <string name="s_king_game_info" formatted="false">You will get the badge of The King of Game when you reach the King Tier(repeatable) at the end of the season.</string>
+    <string name="s_chal_insider" formatted="false">Challenge Game Insider</string>
+    <string name="s_chal_insider_info" formatted="false">You will get the badge of Challenge Game Insider when you play any challenge games in total for 1000 times.</string>
+    <string name="s_bat_insider" formatted="false">Battle Game Insider</string>
+    <string name="s_bat_insider_info" formatted="false">You will get the badge of Battle Game Insider when you win any battle games for 500 times.</string>
+    <string name="s_beginner" formatted="false">The Beginner</string>
+    <string name="s_beginner_info" formatted="false">You will get the badge of The Beginner when you play 30 games.</string>
+    <string name="s_popular" formatted="false">The Popular</string>
+    <string name="s_popular_info" formatted="false">You will get the badge of The Popular when you get 30 friends.</string>
+    <string name="s_first_win" formatted="false">First Win</string>
+    <string name="s_win_bat" formatted="false">Win 1 battle game</string>
+    <string name="s_win_5_bat" formatted="false">Win 5 battle games</string>
+    <string name="s_get_75_points" formatted="false">Get 75 TP for 1 time in a challenge game</string>
+    <string name="s_play_battle" formatted="false">Play battle games with 3 friends in chat rooms</string>
+    <string name="s_gain_1000" formatted="false">Gain 1000 TP today</string>
+    <string name="s_get_5000" formatted="false">Get 5000 scores in any battle game</string>
+    <string name="s_top_1_glo" formatted="false">Be global top 1 in a game at the end of season</string>
+    <string name="s_top_100_ranking" formatted="false">Be global top 100 in a game at the end of season</string>
+    <string name="s_top_3_glo" formatted="false">Be global top 3 in a game at the end of season</string>
+    <string name="s_reach_diamond" formatted="false">Reach the tier of Diamond</string>
+    <string name="s_reach_master" formatted="false">Reach the tire of Master</string>
+    <string name="s_reach_king" formatted="false">Reach the tier of King</string>
+    <string name="s_var_get_frd" formatted="false">Get %s Friends on BOO!</string>
+    <string name="s_var_play_games" formatted="false">Play %s different games</string>
+    <string name="s_var_win_bt_times" formatted="false">Win any battle games for %s times</string>
+    <string name="s_var_win_chal_times" formatted="false">Play any challenge games for %s times</string>
+    <string name="s_default_scrore_rk" formatted="false">This is the first season. Stay tuned and check it out on next week.</string>
+    <string name="s_default_level_rk" formatted="false">This is the first season. Stay tuned and check it out on next month.</string>
+    <string name="s_monster_honer" formatted="false">The Monster Honer</string>
+    <string name="s_7_tiers" formatted="false">7 TIERS: Bronze, Silver, Gold, Platinum, Diamond, Master, King.</string>
+    <string name="s_rules_divisions" formatted="false">There are many divisions in each tier, I is the highest. But the divisions in the King can be continuously accumulated.</string>
+    <string name="s_rules_raise_tier" formatted="false">Raise your tier by gaining tier points(TP) in Battle Games or Challenge Games.</string>
+    <string name="s_rules_mission_duration" formatted="false">The mission lasts for a month, the player who reaches the Diamond(or above) will get the counterpart badge at the end of the season.</string>
+    <string name="s_rls_mission_ios" formatted="false">The mission lasts for a month, the player who reaches the Diamond(or above) will get the counterpart badge at the end of the season. And the tier points will be cleared on 1st every month(12:00 AM PST).</string>
+    <string name="s_split_games_irl" formatted="false">Play games with friends in real life.</string>
+    <string name="s_more_games" formatted="false">More Games</string>
+    <string name="s_day1" formatted="false">Day.1</string>
+    <string name="s_day2" formatted="false">Day.2</string>
+    <string name="s_day3" formatted="false">Day.3</string>
+    <string name="s_day4" formatted="false">Day.4</string>
+    <string name="s_day5" formatted="false">Day.5</string>
+    <string name="s_day6" formatted="false">Day.6</string>
+    <string name="s_day7" formatted="false">Day.7</string>
+    <string name="s_play_1_cha_game" formatted="false">Play 10 challenge games</string>
+    <string name="s_battle_100" formatted="false">Play any challenge games for 100 times</string>
+    <string name="s_battle_200" formatted="false">Play any challenge games for 200 times</string>
+    <string name="s_battle_500" formatted="false">Play any challenge games for 500 times</string>
+    <string name="s_battle_1000" formatted="false">Play any challenge games for 1000 times</string>
+    <string name="s_boo_play" formatted="false">Boo Play</string>
+    <string name="s_tiers_ranking" formatted="false">Tiers Ranking</string>
+    <string name="s_got" formatted="false">Got</string>
+    <string name="s_failed_get" formatted="false">Failed to get</string>
+    <string name="s_run_items" formatted="false">You\'ve run out of item cards.</string>
+    <string name="s_db_tp_hr" formatted="false">Double TP Card(1h)</string>
+    <string name="s_db_tp_1d" formatted="false">Double TP Card(1d)</string>
+    <string name="s_db_tp_5d" formatted="false">Double TP Card(5d)</string>
+
+    <!--Game 2.3.2 -->
+    <string name="s_battle" formatted="false">Battle</string>
+    <string name="s_challenge" formatted="false">Challenge</string>
+    <string name="s_tiers" formatted="false">Tiers</string>
+    <string name="s_tasks" formatted="false">Tasks</string>
+    <string name="s_recently_played" formatted="false">Recently played</string>
+
+    <!--Boomoji Riders -->
+    <string name="s_race_boomoji_title" formatted="false">Race with Friends with Your Boomoji Avatar</string>
+    <string name="s_race_boomoji_content" formatted="false">Can you imagine your Boomoji avatar rides on a unicorn and race with your friends? I bet you never try this! You\'ll need to create your wicked avatar to play this game.</string>
+    <string name="s_dl_boomoji" formatted="false">Download Boomoji</string>
+    <string name="s_open_boomoji" formatted="false">Open Boomoji</string>
+    <string name="s_boomoji_frist" formatted="false">Wanna play this game with your friends? You need to create your avatar first.</string>
+
+    <!--Me -->
+    <string name="s_uploading" formatted="false">Uploading...</string>
+    <string name="s_settin" formatted="false">Setting...</string>
+    <string name="s_me" formatted="false">Me</string>
+    <string name="s_add_nickname" formatted="false">+Add Nickname</string>
+    <string name="s_add_bio" formatted="false">Add Bio</string>
+    <string name="s_boocode" formatted="false">Boocard</string>
+    <string name="s_contact_card" formatted="false">Contact Card</string>
+    <string name="s_scan_boocode_add" formatted="false">Scan the Boocard above to add me.</string>
+    <string name="s_scan_too_add" formatted="false">Scan a friend\'s Boocard to add them.</string>
+    <string name="s_feedback" formatted="false">Feedback</string>
+    <string name="s_rate_reviews" formatted="false">Rate &amp; Review</string>
+    <string name="s_share_us" formatted="false">Share Us</string>
+    <string name="s_edit_remarks" formatted="false">Edit Remarks</string>
+    <string name="s_share_contact" formatted="false">Share Contact</string>
+    <string name="s_share_contact_card" formatted="false">Share Contact Card</string>
+    <string name="s_tap_set_cover" formatted="false">Tap to set your cover.</string>
+    <string name="s_slt_cover" formatted="false">Select Your Cover</string>
+    <string name="s_move_zoom" formatted="false">Move &amp; Zoom</string>
+    <string name="s_edit_nickname" formatted="false">Edit Nickname</string>
+    <string name="s_edit_bio" formatted="false">Edit Bio</string>
+    <string name="s_profile_photo" formatted="false">Profile Photo</string>
+    <string name="s_profile_info" formatted="false">Profile Info</string>
+    <string name="s_profile" formatted="false">Profile</string>
+    <string name="s_zodiac" formatted="false">Zodiac</string>
+    <string name="s_edit_zodiac" formatted="false">Edit Zodiac</string>
+    <string name="s_cover" formatted="false">Cover</string>
+    <string name="s_bio" formatted="false">Bio</string>
+    <string name="s_edit_profile" formatted="false">Edit Profile</string>
+    <string name="s_camera_roll" formatted="false">Camera Roll</string>
+    <string name="s_tap_add_booer" formatted="false">Tap a photo with a Boocard to \n add that Booer!</string>
+    <string name="s_slt_photo_profile" formatted="false">Select 1 Photo to Create Your Profile Picture</string>
+    <string name="s_bind_mobile" formatted="false">Bind Mobile</string>
+    <string name="s_country" formatted="false">Country</string>
+    <string name="s_via_mobile" formatted="false">Via Mobile</string>
+    <string name="s_pick_a_name" formatted="false">This is how you appear on BOO!, so pick a name your friends know you by.</string>
+    <string name="s_gender" formatted="false">Gender</string>
+    <string name="s_veri_email" formatted="false">Verify Email</string>
+    <string name="s_your_email_used_login_secure" formatted="false">Your email address is used to log in and to secure your BOO! account.</string>
+    <string name="s_bind_email" formatted="false">Bind Email</string>
+    <string name="s_veri_email_help_acct" formatted="false">Please verify your email address. This helps secure your account!</string>
+    <string name="s_bind_number" formatted="false">Bind Phone Number</string>
+    <string name="s_find_you_using_number" formatted="false">Let others find you using your phone number.</string>
+    <string name="s_what_is_your_gender" formatted="false">What is your gender?</string>
+    <string name="s_edit_gender" formatted="false">Edit Gender</string>
+    <string name="s_what_is_your_gender_girl" formatted="false">Girl</string>
+    <string name="s_what_is_your_gender_boy" formatted="false">Boy</string>
+    <string name="s_more_info" formatted="false">More Information</string>
+    <string name="s_privacy_policy" formatted="false">Privacy Policy</string>
+    <string name="s_term_service" formatted="false">Terms of Service</string>
+    <string name="s_and_note" formatted="false">&amp;</string>
+    <string name="s_acct_actions" formatted="false">Account Actions</string>
+    <string name="s_clear_cache" formatted="false">Clear Cache</string>
+    <string name="s_important" formatted="false">IMPORTANT</string>
+    <string name="s_conversation_clear" formatted="false">All boos in the conversations will be cleared. Are you sure you want to clear all of them?</string>
+    <string name="s_want_log_out" formatted="false">Are you sure you want to log out?</string>
+    <string name="s_share_add_me_username" formatted="false">Add me on BOO!\nUsername: %s  %s </string>
+    <string name="s_hey_there" formatted="false">Hey there! |1f60a|</string>
+    <string name="s_we_tell_improve_email" formatted="false">We\'re loving to hear your ideas and tell us how we could improve Boo better! Please email |1f4ec| feedbacksboo.chat</string>
+    <string name="s_awesome" formatted="false">Awesome |1f606|</string>
+    <string name="s_still_improvement" formatted="false">Still needs improvement |1f61b|</string>
+    <string name="s_glad_enjoy_review" formatted="false">Glad you\'re enjoying Boo! \n Would you mind giving us a \n minute to review our app? It \n would help us out a lot!</string>
+    <string name="s_update_scan_boocode" formatted="false">Please update to the newest version to scan it.</string>
+    <string name="s_scan_own_code" formatted="false">This is your own Boocard.</string>
+    <string name="s_failed_load" formatted="false">Failed to load. Please try again</string>
+    <string name="s_unit_meter" formatted="false">m</string>
+    <string name="s_boofamily_bio" formatted="false">Connecting the next generation to make the world a better place.</string>
+
+    <!--Boo Family IP -->
+    <string name="s_boofamily" formatted="false">Boo Family</string>
+    <string name="s_bobo" formatted="false">BoBo</string>
+    <string name="s_bobo_bio" formatted="false">BoBo is passionate and full of energy, always ready to embrace new things and changes! He is honest and brave, but he likes pranking his friends.</string>
+    <string name="s_bella" formatted="false">Bella</string>
+    <string name="s_bella_bio" formatted="false">Never one to shy away from attention, Bella is outgoing, positive, and loves being around with animals. She always brings a lot of joy to Boo Family.</string>
+    <string name="s_max" formatted="false">Max</string>
+    <string name="s_max_bio" formatted="false">Max always stands by 24/7 for friends. He is warm-hearted but a little bit self-conscious. He\'s always trying to lose weight, but can\'t resist delicious food.</string>
+    <string name="s_marry" formatted="false">Merry</string>
+    <string name="s_merry_bio" formatted="false">Merry is kind of shy. She prefers staying at her own space, but she loves using BOO! to share and connect with friends.</string>
+    <string name="s_charlie" formatted="false">Charlie</string>
+    <string name="s_charlie_bio" formatted="false">Charlie is a genius and obsessed with science &amp; new technology. He enjoys playing games with friends, but his favorite hobby is to invent cool stuffs at his own workshop.</string>
+
+
+    <!--Boomoji -->
+    <string name="s_boomoji" formatted="false">Boomoji</string>
+    <string name="s_incorrect_mail_password" formatted="false">Incorrect email or password</string>
+    <string name="s_ur_animated_avatar" formatted="false">Your Animated 3D Avatar</string>
+    <string name="s_slt_ur_gender" formatted="false">Select Your Gender</string>
+    <string name="s_outfits" formatted="false">Outfits</string>
+    <string name="s_ar_camera" formatted="false">AR Camera</string>
+    <string name="s_android_os" formatted="false">This requires OS 7.0 or later.</string>
+    <string name="s_not_create_boomoji" formatted="false">Your friend hasn\'t created Boomoji yet.</string>
+    <string name="s_download_friend_avatar" formatted="false">Downloading friend\'s avatar for you…</string>
+
+
+    <!--Web Push -->
+    <string name="s_web_bore_talk_frd" formatted="false">Feeling Bored? Talk to a friend now! |1f483|</string>
+    <string name="s_web_your_frd_miss" formatted="false">Your friends |1f467||1f466||1f469||1f471||1f46e| are missing you.</string>
+    <string name="s_wen_frd_let_you_bored" formatted="false">Friends never let you bored. Come |1f6b6||1f6b6|‍‍|1f3c3||1f3c3|and talk to them! |1f608|</string>
+    <string name="s_web_var_group_join" formatted="false">%s started a group and waiting for you to join now! </string>
+    <string name="s_web_var_add_on_user" formatted="false">Add me on BOO! Username: s%s</string>
+    <string name="s_web_var_frd_req" formatted="false">%s wants to add you as a friend.</string>
+    <string name="s_web_contact_frd_join" formatted="false">Your friend Nickname(susername) just joined on BOO! Say Hi. |1f618|</string>
+    <string name="s_web_new_games_lenses" formatted="false">Your cool lenses and games are ready!  Get lit! |1f525|</string>
+
+    <!--v4.0 -->
+    <string name="s_no_photo_vid" formatted="false">No photos or videos</string>
+    <string name="s_party_start" formatted="false">Let\'s Get the Party Started!</string>
+    <string name="s_boo_lifestyle" formatted="false">Next Generation Messenger</string>
+    <string name="s_welcome_new_boo" formatted="false">Welcome Back to All New BOO!</string>
+    <string name="s_redeine_way_connect" formatted="false">Redefine The Way You Connect</string>
+    <string name="s_create_express_urself" formatted="false">Create Expectations &amp; Express Yourself</string>
+    <string name="s_record_explore_school" formatted="false">Share Days Together At Your School</string>
+    <string name="s_record_moments_day" formatted="false">Record all the moments of your Day.</string>
+    <string name="s_follow_sup_happen" formatted="false">Follow friends to see what\'s up to. And Discover what\'s happening at your school.</string>
+    <string name="s_instant_game_frd" formatted="false">Challenge Friends With Instant Games</string>
+    <string name="s_new_frds_school" formatted="false">Make New Friends From School</string>
+    <string name="s_thisnot_bcode" formatted="false">This is not a Boocard.</string>
+    <string name="s_many_oper_aga" formatted="false">Too many operations. Try again later.</string>
+    <string name="s_share_us_text" formatted="false">Hey, let\'s switch to BOO!. I\'m using it to find friends at school, chat &amp; even play games with them! Don\'t be the last one using this! Get it free now!</string>
+
+    <!--登录注册 -->
+    <string name="s_aldy_acct" formatted="false">Already have an account?</string>
+    <!--Me -->
+    <string name="s_var_urname" formatted="false">s%s</string>
+    <string name="s_fail_upld" formatted="false">Failed to upload</string>
+
+    <!--Permissions -->
+    <string name="s_find_frd_access" formatted="false">Find Friends From Your \"Contacts\" </string>
+    <string name="s_find_choose_access" formatted="false">Find which of your friends are already on BOO! and choose who to add.</string>
+    <string name="s_pls_on_noti" formatted="false">Please Turn On Notifications</string>
+    <string name="s_miss_msg_able_noti" formatted="false">Don\'t miss out on messages from friends. Tap to enable notifications, in this way, you\'ll know when your friends send you messages.</string>
+    <string name="s_read_more" formatted="false">Read More</string>
+    <string name="s_miss_thing_frd" formatted="false">Never miss a thing from your friends on BOO!</string>
+    <string name="s_worry_able_now" formatted="false">Don\'t worry! You can enable it right now in your \"Settings\".</string>
+    <string name="s_turn_on" formatted="false">Turn On</string>
+    <string name="s_not_now" formatted="false">Not Now</string>
+    <string name="s_contin_without_noti" formatted="false">Continue without notifications?</string>
+    <string name="s_youll_miss_frds" formatted="false">You\'ll miss all the things from your friends.</string>
+    <string name="s_turn_noti" formatted="false">Turn On Notification</string>
+    <string name="s_continue_without_noti" formatted="false">Continue without notifications</string>
+    <string name="s_noti_denied" formatted="false">Push Notifications are Off</string>
+    <string name="s_miss_sent_worry_able" formatted="false">You missed every thing that your friends sent you. But don\'t worry! You can enable it right now in your Settings.</string>
+    <string name="s_conti_alone_all" formatted="false">Continue all alone?</string>
+    <string name="s_miss_ur_frd_" formatted="false">You\'ll miss your friends that are already here and coming.</string>
+    <string name="s_conti_alone" formatted="false">Continue alone</string>
+    <string name="s_find_choose_frd_disconnect_short" formatted="false">Find which of your friends are already on BOO! and choose who to add.</string>
+    <string name="s_find_choose_frd_disconnect" formatted="false">Find which of your friends are already on BOO! and choose who to add. You can choose to have your contacts periodically synced and stored on our server. Disconnect anytime to stop syncing.</string>
+    <string name="s_contact" formatted="false">Contacts Access is Off</string>
+    <string name="s_photo_permission_deny" formatted="false">Photo Permission Denied</string>
+    <string name="s_access_photo_settng" formatted="false">BOO! does not have access to your photos or videos, To enable access, tap Settings and enable Photos.</string>
+    <string name="s_finding_school" formatted="false">Finding Schools</string>
+    <string name="s_loca_nearby_able" formatted="false">BOO! would like to use your location to find nearby schools. Please go to Settings of this app and enable Location Access.</string>
+    <string name="s_cellular_data_off" formatted="false">Cellular Data is Turned Off for BOO!</string>
+    <string name="s_turn_on_data_" formatted="false">You can turn on cellular data for this app in Settings</string>
+    <string name="s_miss_msg_explain_noti" formatted="false">Don\'t be the friend who misses out on the fun. Notifications alert you whenever a friend is booing you.</string>
+
+    <!--Chat -->
+    <string name="s_tap_slt_schl" formatted="false">Tap to select your school</string>
+    <string name="s_boo" formatted="false">BOO!</string>
+    <string name="s_you" formatted="false">sYOU</string>
+    <string name="s_add_contact" formatted="false">+Add Contacts</string>
+    <string name="s_var_srch_username" formatted="false">Search: %s</string>
+    <string name="s_details" formatted="false">Details</string>
+    <string name="s_start_group" formatted="false">Start a Group</string>
+    <string name="s_share_boocard" formatted="false">Share Contact Card</string>
+    <string name="s_sticky_top" formatted="false">Sticky on Top</string>
+    <string name="s_block" formatted="false">Block</string>
+    <string name="s_clear_hisy" formatted="false">Clear Chat History</string>
+    <string name="s_remarks" formatted="false">Remarks</string>
+    <string name="s_sent" formatted="false">Sent</string>
+    <string name="s_this_del_msg_chat" formatted="false">This will delete all messages in this chat.</string>
+    <string name="s_cleared" formatted="false">Cleared</string>
+    <string name="s_group_detail" formatted="false">Group Details</string>
+    <string name="s_group_member" formatted="false">Group Members</string>
+    <string name="s_invite_code" formatted="false">Invite Code</string>
+    <string name="s_mag_group" formatted="false">Manage Group</string>
+    <string name="s_mute_noti" formatted="false">Mute Notifications</string>
+    <string name="s_group_descp" formatted="false">Group Description</string>
+    <string name="s_no_grp_des" formatted="false">No group description yet.</string>
+    <string name="s_join" formatted="false">Join</string>
+    <string name="s_group_admin" formatted="false">Group Admin</string>
+    <string name="s_edit_group_info" formatted="false">Edit Group Info</string>
+    <string name="s_group_photo" formatted="false">Group Photo</string>
+    <string name="s_add_grp_des" formatted="false">Add group description</string>
+    <string name="s_grp_des_visble_mem" formatted="false">The group description is visible to members of this group.</string>
+    <string name="s_edit_grp_name" formatted="false">Edit Group Name</string>
+    <string name="s_add_group_des" formatted="false">Add Group Description</string>
+    <string name="s_edit_group_description" formatted="false">Edit Group Description</string>
+    <string name="s_var_remove" formatted="false">Remove(%s)</string>
+    <string name="s_var_remove_grp" formatted="false">Remove %s from the group?</string>
+    <string name="s_var_within_remove_grp" formatted="false">Remove %s, %s from the group?</string>
+    <string name="s_var_remove_others_frp" formatted="false">Remove %s, and others from the group?</string>
+    <string name="s_default_msg_remove" formatted="false">removed</string>
+    <string name="s_default_frm_grp" formatted="false">from group</string>
+    <string name="s_removed" formatted="false">Removed.</string>
+    <string name="s_group_code" formatted="false">Group Code</string>
+    <string name="s_share_grp_link" formatted="false">Share Group Link</string>
+    <string name="s_scan_grp_join" formatted="false">Scan the Group Code to join the group.</string>
+    <string name="s_booers_mobile_contacts" formatted="false">Booers in My Mobile Contacts</string>
+    <string name="s_boomobile_shown_now" formatted="false">Booers in your mobile contacts will show up here.</string>
+    <string name="s_anyone_invite" formatted="false">Anyone Can Invite</string>
+    <string name="s_enabled_memb_frd_grp" formatted="false">When it is enabled, all members can invite their friends to the group.</string>
+    <string name="s_var_unread_msg" formatted="false">%s Unread Messages</string>
+    <string name="s_unread_msg" formatted="false">Unread Messages</string>
+    <string name="s_tag" formatted="false">s%s</string>
+    <string name="s_h5_group_invite" formatted="false">%s invited you to join the group chat.</string>
+    <string name="s_unkown" formatted="false">Unknown</string>
+    <string name="s_no_bio_yet" formatted="false">No bio yet.</string>
+    <string name="s_slt_mon" formatted="false">Select Month</string>
+    <string name="s_slt_date" formatted="false">Select Date</string>
+    <string name="s_jan" formatted="false">Jan.</string>
+    <string name="s_feb" formatted="false">Feb.</string>
+    <string name="s_mar" formatted="false">Mar.</string>
+    <string name="s_apr" formatted="false">Apr.</string>
+    <string name="s_may" formatted="false">May</string>
+    <string name="s_jun" formatted="false">Jun.</string>
+    <string name="s_jul" formatted="false">Jul.</string>
+    <string name="s_aug" formatted="false">Aug.</string>
+    <string name="s_sep" formatted="false">Sept.</string>
+    <string name="s_oct" formatted="false">Oct.</string>
+    <string name="s_nov" formatted="false">Nov.</string>
+    <string name="s_dec" formatted="false">Dec.</string>
+    <string name="s_aries" formatted="false">Aries</string>
+    <string name="s_taurus" formatted="false">Taurus</string>
+    <string name="s_gemini" formatted="false">Gemini</string>
+    <string name="s_cancer" formatted="false">Cancer</string>
+    <string name="s_leo" formatted="false">Leo</string>
+    <string name="s_virgo" formatted="false">Virgo</string>
+    <string name="s_libra" formatted="false">libra</string>
+    <string name="s_scorpio" formatted="false">Scorpio</string>
+    <string name="s_sagittarius" formatted="false">Sagittarius</string>
+    <string name="s_capricorn" formatted="false">Capricorn</string>
+    <string name="s_aquarius" formatted="false">Aquarius</string>
+    <string name="s_pisces" formatted="false">Pisces</string>
+    <string name="s_var_girl" formatted="false">|1f467|, Girl</string>
+    <string name="s_var_boy" formatted="false">|1f466|, Boy</string>
+    <string name="s_profile_display_network" formatted="false">Your profile will be displayed in this network.</string>
+    <string name="s_hide_frm_network" formatted="false">Hide Me From This Network.</string>
+    <string name="s_sending" formatted="false">Sending</string>
+    <string name="s_conct_card" formatted="false">Contact Card</string>
+    <string name="s_congrats" formatted="false">Congrats!</string>
+    <string name="s_hi" formatted="false">Hi</string>
+    <string name="s_u_back" formatted="false">U Back</string>
+    <string name="s_could_better" formatted="false">It could be better.</string>
+    <string name="s_sure_love_to" formatted="false">Sure, I\'d love to.</string>
+    <string name="s_wer_use_review" formatted="false">We\'re glad you\'re enjoying using our app! Would you mind giving us a 5 Star review?</string>
+    <string name="s_boo_invite_community" formatted="false">BOO! is for friends. Invite your friends to join us, and let\'s make BOO! a better community!</string>
+    <string name="s_definite" formatted="false">Definitely</string>
+    <string name="s_seems_quiet" formatted="false">Seems it\'s too quiet here.</string>
+    <string name="s_start_chat_now" formatted="false">Start chatting with your friends now.</string>
+    <string name="s_start_chat" formatted="false">Start a Chat</string>
+    <string name="s_more_fun_frd" formatted="false">BOO! is more fun with friends.</string>
+    <string name="s_start_more_frd" formatted="false">Start finding more friends now!</string>
+    <string name="s_find_frds" formatted="false">Find Friends</string>
+    <string name="s_invite_frds_party" formatted="false">Invite friends to a party.</string>
+    <string name="s_start_grp_chat" formatted="false">Start a new group chat now!</string>
+    <string name="s_sug_feedback_serv" formatted="false">Your suggestions and ideas are important to us. Feedback from Booers like you helps us to constantly improve our features and services.</string>
+    <string name="s_mobile_cont_empty" formatted="false">Your mobile contacts is empty.</string>
+    <string name="s_leave_change_made" formatted="false">Leave without saving any changes you\'ve made?</string>
+    <string name="s_pls_connect_wifi" formatted="false">Please make sure that you connect to school WIFI.</string>
+    <string name="s_edit_profile_info" formatted="false">Edit Profile Info</string>
+    <string name="s_add_sticker" formatted="false">Add to Sticker</string>
+    <string name="s_mem_all_invtie_grp" formatted="false">When it is enabled, all members can invite their friends to group.</string>
+    <string name="s_var_valid_till" formatted="false">Valid until %s</string>
+    <string name="s_share_invite_code" formatted="false">Share Invite Code</string>
+    <string name="s_renew_invite_code" formatted="false">Renew Invite Code</string>
+    <string name="s_keep_it_pria" formatted="false">Keep it private.</string>
+    <string name="s_same_grade" formatted="false">Same Grade</string>
+    <string name="s_school_frd" formatted="false">Schoolmate</string>
+    <string name="s_mutual_friend" formatted="false">Mutual Friend</string>
+    <string name="s_1_mutual_friend" formatted="false">1 Mutual Friend</string>
+    <string name="s_var_mutual_friends" formatted="false">%s Mutual Friends</string>
+    <string name="s_same_group" formatted="false">Same Group</string>
+    <string name="s_1_same_group" formatted="false">1 Same Group</string>
+    <string name="s_var_same_groups" formatted="false">%s Same Groups</string>
+    <string name="s_remove_member" formatted="false">Remove Members</string>
+    <string name="s_var_remove_from_grp" formatted="false">%s removed %s, %s, and %s from the group.</string>
+    <string name="s_not_member_grp_del" formatted="false">You are not the member of the group.</string>
+    <string name="s_removed_from_grp" formatted="false">You\'ve been removed from group.</string>
+    <string name="s_add_grp_descp" formatted="false">Add group description.</string>
+    <string name="s_no_more_frd_pend" formatted="false">No more friends pending.</string>
+    <string name="s_invaild_num" formatted="false">Invaild phone number!</string>
+    <string name="s_didt_rev_code" formatted="false">I didn\'t recieve the code.</string>
+    <string name="s_var_code_sent_to" formatted="false">The code has been sent to %s.</string>
+    <string name="s_enable_share_photo_msg" formatted="false">Enable camera access so that you can share photos and send video message.</string>
+    <string name="s_access_prohibit_app" formatted="false">Access the camera has been prohibited, please enable it in the Settings of this app.</string>
+    <string name="s_quick_add" formatted="false">QUICK ADD</string>
+
+
+    <!--Camera -->
+    <string name="s_beauty_off" formatted="false">Beauty Off</string>
+    <string name="s_beauty_on" formatted="false">Beauty On</string>
+    <string name="s_normal" formatted="false">Normal</string>
+    <string name="s_share_cam_rol" formatted="false">Share to social medias from Camera Roll</string>
+    <string name="s_unable_read_video" formatted="false">Unable to read this video. Please try another one.</string>
+    <string name="s_no_pic_vid" formatted="false">No Photos or Videos</string>
+    <string name="s_invalid_file" formatted="false">Invalid file</string>
+    <string name="s_stickers" formatted="false">Stickers</string>
+
+    <!--Me -->
+    <string name="s_enable_mobile_add_frd" formatted="false">Enable Mobile Contacts to add more friends.</string>
+    <string name="s_mobile_contacts" formatted="false">Mobile Contacts</string>
+    <string name="s_mobile_contact" formatted="false">Mobile Contact</string>
+    <string name="s_booer_mobile_conts" formatted="false">Booer From Mobile Contacts</string>
+    <string name="s_var_contact" formatted="false">Contacts:%s</string>
+    <string name="s_add_frm_mobile" formatted="false">Add friends from mobile contacts</string>
+    <string name="s_star_rate" formatted="false">Tap 5 stars to rate it on the App Store</string>
+    <string name="s_switch_frd_get" formatted="false">Hey, let\'s switch to BOO!. I\'m using it to find friends at school, chat &amp; even play games with them! Don\'t be the last one using this! Get it free now! </string>
+
+
+
+    <!--Peak-a-boo 2.0 -->
+    <string name="s_answer_polls" formatted="false">Answer Polls</string>
+    <string name="s_abou_frd" formatted="false">About Friends</string>
+    <string name="s_chat_frd" formatted="false">Chat With Friends</string>
+    <string name="s_who_give_hrts" formatted="false">Who Give You Hearts</string>
+    <string name="s_play_now" formatted="false">Play Now</string>
+    <string name="s_whats_name" formatted="false">What\'s Your Name?</string>
+    <string name="s_lets_go" formatted="false">Let\'s go</string>
+    <string name="s_school_frds" formatted="false">School Friends</string>
+    <string name="s_choo_gender_anon" formatted="false">Now choose your gender first, and play anonymously!</string>
+    <string name="s_pick_choice_below_hrts" formatted="false">Pick your choice below, and they will get a heart anonymously.</string>
+    <string name="s_tap_contin" formatted="false">Tap to continue</string>
+    <string name="s_frd_same_grade" formatted="false">Friends in Same Grade</string>
+    <string name="s_frd_same_school" formatted="false">Friends in Same school</string>
+    <string name="s_invite_a_frds" formatted="false">Invite a Friends</string>
+    <string name="s_got_school_together" formatted="false">Em… It seems like you haven\'t got any friends in school here. Invite schoolmates to have fun together!</string>
+    <string name="s_inv_frd_unlock" formatted="false">Invite a Friend to Unlock</string>
+    <string name="s_var_find_relt" formatted="false">Find more results of ”%s“</string>
+    <string name="s_common_photo" formatted="false">Photo</string>
+    <string name="s_common_scan" formatted="false">Scan</string>
+    <string name="s_game_req_latest_version" formatted="false">This game requires the latest version. Please update now.</string>
+    <string name="s_friend_tag_unava" formatted="false">The feature is not available now, but see you very soon!</string>
+
+
+    <string name="s_invalid_picture" formatted="false">An invalid picture</string>
+    <string name="s_gif" formatted="false">GIF</string>
+    <string name="s_test" formatted="false">Test</string>
+
+    <!-- 2018年10月20日 -->
+    <string name="s_scan_code" formatted="false">Scan Code</string>
+
+    <!--公开群风控文案 -->
+    <string name="s_dele_me" formatted="false">Delete For Me</string>
+    <string name="s_manage" formatted="false">Manage</string>
+    <string name="s_block_msg" formatted="false">Block This Message</string>
+    <string name="s_remove_block" formatted="false">Remove &amp; Block User</string>
+    <string name="s_remove_note" formatted="false">This member will be removed and can\'t join this group anymore.</string>
+    <string name="s_admin_remove" formatted="false">OMG！You can\'t remove yourself from this group.</string>
+    <string name="s_remove_admin" formatted="false">You can\'t remove admins from this group.</string>
+    <string name="s_var_block_join" formatted="false">The following user(s) has been blocked:</string>
+    <string name="s_you_block_join" formatted="false">You\'ve been blocked.</string>
+    <string name="s_users_ban_join" formatted="false">The following user(s) has been banned from Public Group:</string>
+    <string name="s_block_grp_mem" formatted="false">Blocked Members</string>
+    <string name="s_no_blocked_mem" formatted="false">No Blocked Members.</string>
+    <string name="s_remove_a_block" formatted="false">Remove &amp; Block</string>
+    <string name="s_grp_owner_note" formatted="false">You are the group owner. If you\'re sure you want to leave, you need to choose the following options first.</string>
+    <string name="s_dissolve_grp" formatted="false">Dissolve The Group</string>
+    <string name="s_dissolve_grp_confirm" formatted="false">Are you sure you want to dissolve this group? Please note it can\'t be recovered.</string>
+    <string name="s_dissolve" formatted="false">Dissolve</string>
+    <string name="s_dissolved_noti" formatted="false">%s has dissolved this group.</string>
+    <string name="s_mute_noti_note" formatted="false">Too many members in the group now, you can mute notifications</string>
+    <string name="s_not_set" formatted="false">Not set yet</string>
+    <string name="s_sel_grp_cato" formatted="false">Select Group Category</string>
+    <string name="s_choose_grp" formatted="false">Choose your group category and make people who have similar interests find it much easier.</string>
+    <string name="s_edit_sch_info" formatted="false">Edit Your School Info</string>
+    <string name="s_5tags_most" formatted="false">You can add 5 tags at most.</string>
+    <string name="s_2pub_grps_most" formatted="false">You can create 2 public groups at most.</string>
+    <string name="s_created_2_grps" formatted="false">You\'ve already created 2 public groups.</string>
+    <string name="s_not_found" formatted="false">Not Found.</string>
+    <string name="s_sch_grp" formatted="false">School Group</string>
+    <string name="s_select_grp_type" formatted="false">Select your group type:</string>
+    <string name="s_anyone_see_join" formatted="false">Anyone can see or join.</string>
+    <string name="s_sch_see_join" formatted="false">Only your schoolmates can see or join.</string>
+    <string name="s_select_cate" formatted="false">Select a Category</string>
+    <string name="s_ur_sch_grp" formatted="false">School Groups</string>
+    <string name="s_sch_grp_not_created" formatted="false">No groups in your school.</string>
+    <string name="s_create_sch_grp" formatted="false">Create School Group</string>
+    <string name="s_block_msg_content" formatted="false">If you block this message, all members won\'t see it.</string>
+    <string name="s_grp_type" formatted="false">Group Type</string>
+    <string name="s_grp_settings" formatted="false">Groups Settings</string>
+    <string name="s_leave_grp" formatted="false">Leave group</string>
+    <string name="s_here" formatted="false">here</string>
+    <string name="s_grp_category" formatted="false">Category</string>
+    <string name="s_report_sch_grp" formatted="false">Are you sure you want to report this school group?</string>
+    <string name="s_edit_sch" formatted="false">You won\'t be able to change your school within the next 60 days.</string>
+
+
+    <!--Public Group下线文案 -->
+    <string name="s_pub_grp_title" formatted="false">Public Group Is Upgrading</string>
+    <string name="s_pub_grp_content" formatted="false">We are sorry this beta version of Public Group has made some users feel disturbed. The Public Group aims to provide a safe and fun community for all users who have similar interests. For that purpose, we need to optimize this feature to make this place more enjoyable. The new version will be online soon, stay tuned!</string>
+    <string name="s_feature_unavailable" formatted="false">This feature is no longer available.</string>
+    <string name="s_member_not_grp" formatted="false">This member is not in the group.</string>
+    <string name="s_u_not_grp_mem" formatted="false">You\'re not the group owner.</string>
+
+
+    <!--Boomoji Rider 2.0 -->
+    <string name="s_quick_race" formatted="false">Quick Race</string>
+    <string name="s_custom_race" formatted="false">Custom Race</string>
+    <string name="s_host_left" formatted="false">The host has left and this race has been canceled.</string>
+    <string name="s_race_4_players" formatted="false">You can\'t join this race. It can only include 4 players.</string>
+    <string name="s_race_canceled" formatted="false">This race has been canceled.</string>
+    <string name="s_race_started" formatted="false">This race has already started.</string>
+    <string name="s_start" formatted="false">Start</string>
+
+    <!--Public Group改进版 -->
+    <string name="s_grp_visible_approval" formatted="false">Your group will be visible after approval.</string>
+    <string name="s_report_title" formatted="false">Let Us Know What\'s Going On</string>
+    <string name="s_common_violence" formatted="false">Violence</string>
+    <string name="s_common_harassment" formatted="false">Harassment</string>
+    <string name="s_common_sucide" formatted="false">Suicide or Self-injury</string>
+    <string name="s_common_hatespeech" formatted="false">Hate Speech</string>
+    <string name="s_common_drugs" formatted="false">Sale or Promotion of Drugs</string>
+    <string name="s_common_spam" formatted="false">Spam</string>
+    <string name="s_common_others" formatted="false">Others</string>
+    <string name="s_thx_reporting" formatted="false">Thanks For Reporting</string>
+    <string name="s_profile_pub" formatted="false">You can\'t view the profile of Booers who are not your friends.</string>
+    <string name="s_report_content" formatted="false">We\'ll handle this group according to the Guidelines of BOO!. Your report is important in helping us keep the BOO! community safe.</string>
+    <string name="s_contact_admins" formatted="false">Your report is important in helping us keep the BOO! community safe. At the same time, you can contact the group admins to deal with the content.</string>
+    <string name="s_delete_users" formatted="false">Your report is important in helping us keep the BOO! community safe. At the same time, you can block or delete this user.</string>
+</resources>

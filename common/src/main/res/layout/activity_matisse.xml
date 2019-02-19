@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright 2017 Zhihu Inc.
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            >
+
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/album_back"
+                android:layout_width="44dp"
+                android:layout_height="44dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@mipmap/icon_back_b"
+                />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/album_title_actv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/s_common_album"
+                android:textColor="@color/colour_1001"
+                android:layout_centerInParent="true"
+                android:textSize="19sp"/>
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/album_cancel_actv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/s_cancel"
+                android:textColor="@color/colour_1001"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="8dp"
+                android:textAllCaps="true"
+                android:textSize="16sp"/>
+        </RelativeLayout>
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_below="@id/toolbar"
+        />
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottom_toolbar"
+        android:layout_below="@+id/toolbar"
+        android:visibility="gone"/>
+
+    <FrameLayout
+        android:id="@+id/bottom_toolbar_fl"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_50_dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colour_1005"
+        >
+
+        <TextView
+            android:id="@+id/button_preview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_preview"
+            android:layout_gravity="start|center_vertical"
+            android:layout_marginStart="30dp"
+            android:textColor="@color/colour_1"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/button_apply"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|center_vertical"
+            android:textColor="@color/colour_32"
+            android:layout_marginEnd="30dp"
+            android:textSize="16sp"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/empty_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottom_toolbar"
+        android:layout_below="@id/toolbar"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/empty_view_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:drawablePadding="8dp"
+            android:gravity="center"
+            android:textSize="16sp"/>
+
+    </FrameLayout>
+</RelativeLayout>

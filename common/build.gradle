@@ -1,0 +1,139 @@
+apply plugin: 'com.android.library'
+apply plugin: 'realm-android'
+apply plugin: 'com.jakewharton.butterknife'
+buildscript {
+    repositories {
+        mavenCentral()
+        jcenter()
+        google()
+    }
+
+    dependencies {
+        classpath 'com.jakewharton:butterknife-gradle-plugin:9.0.0-rc3'
+    }
+}
+
+android {
+    compileSdkVersion BooCompileSdkVersion
+    buildToolsVersion BooBuildToolsVersion
+
+    defaultConfig {
+        minSdkVersion BooMinSdkVersion
+        targetSdkVersion BooTargetSdkVersion
+        multiDexEnabled true
+        versionCode 1
+        versionName "1.0"
+
+        ndk {
+            // 设置支持的SO库架构
+            abiFilters 'armeabi' //, 'x86', 'armeabi-v7a', 'x86_64', 'arm64-v8a'
+        }
+    }
+
+    buildTypes {
+        debug {
+            buildConfigField "boolean", "LOG_DEBUG", "true"
+            //统计
+            buildConfigField "boolean", "STATIC_OPEN", "false"
+            versionNameSuffix "-debug"
+            debuggable true
+            jniDebuggable false
+            renderscriptDebuggable false
+            buildConfigField "String", "BUILD_WHAT", "\"Debug\""
+        }
+
+        dev {
+            // 不显示Log
+            buildConfigField "boolean", "LOG_DEBUG", "true"
+            //统计
+            buildConfigField "boolean", "STATIC_OPEN", "true"
+            versionNameSuffix ""
+            debuggable true
+            buildConfigField "String", "BUILD_WHAT", "\"Release\""
+        }
+
+        release {
+            // 不显示Log
+            buildConfigField "boolean", "LOG_DEBUG", "false"
+            //统计
+            buildConfigField "boolean", "STATIC_OPEN", "true"
+            versionNameSuffix ""
+            debuggable false
+            buildConfigField "String", "BUILD_WHAT", "\"Release\""
+        }
+    }
+
+
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    lintOptions {
+        abortOnError false
+        // 防止在发布的时候出现因MissingTranslation导致Build Failed!
+        disable 'MissingTranslation'
+    }
+
+}
+
+dependencies {
+    testImplementation 'junit:junit:4.12'
+    api fileTree(dir: 'libs', include: ['*.jar'])
+    implementation "com.android.support:appcompat-v7:${supportLibVersion}"
+    //引入okhttp
+    api 'com.squareup.okhttp3:okhttp:3.11.0'
+    //引入retrofit
+    api 'com.squareup.retrofit2:retrofit:2.4.0'
+    //引入rxjava
+    api 'io.reactivex.rxjava2:rxjava:2.2.3'
+    //引入Log拦截器，方便DEBUG模式输出log信息
+    implementation('com.github.ihsanbal:LoggingInterceptor:2.0.7') {
+        exclude group: 'org.json', module: 'json'
+    }
+    //引入rxjava适配器，方便rxjava与retrofit的结合
+    api 'com.squareup.retrofit2:adapter-rxjava2:2.4.0'
+    //引入json转换器，方便将返回的数据转换为json格式
+    api 'com.squareup.retrofit2:converter-gson:2.4.0'
+    api 'com.google.code.gson:gson:2.8.2'
+    api 'com.alibaba:fastjson:1.1.70.android'
+    //引入rxandroid
+    api 'io.reactivex.rxjava2:rxandroid:2.1.0'
+    //ui 注入
+    api 'com.jakewharton:butterknife:9.0.0-rc3'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:9.0.0-rc3'
+
+    api 'com.facebook.stetho:stetho:1.5.0'
+    api 'com.uphyca:stetho_realm:2.1.0'
+    //mmkv
+    api 'com.tencent:mmkv:1.0.15'
+    //android support 库
+    api 'com.android.support:multidex:1.0.3'
+    api 'com.android.support.constraint:constraint-layout:1.1.3'
+    api "com.android.support:appcompat-v7:${supportLibVersion}"
+    api "com.android.support:design:${supportLibVersion}"
+    api "com.android.support:cardview-v7:${supportLibVersion}"
+    api "com.android.support:recyclerview-v7:${supportLibVersion}"
+    api "com.android.support:support-dynamic-animation:${supportLibVersion}"
+    //图片，gif，webp 加载相关库
+    api 'com.davemorrissey.labs:subsampling-scale-image-view:3.10.0'
+    api 'com.facebook.fresco:fresco:1.11.0'
+    // For animated GIF support
+    api 'com.facebook.fresco:animated-gif:1.11.0'
+    // For WebP support, including animated WebP
+    api 'com.facebook.fresco:animated-webp:1.11.0'
+    api 'com.facebook.fresco:webpsupport:1.11.0'
+    //Android View Animations
+    api 'com.daimajia.easing:library:2.0@aar'
+    api 'com.daimajia.androidanimations:library:2.3@aar'
+    //image loader
+    api 'com.github.bumptech.glide:glide:4.8.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.8.0'
+    api 'me.relex:photodraweeview:1.1.3'
+    //status bar
+    api('com.jaeger.statusbarutil:library:1.4.0', {
+        exclude group: 'com.android.support', module: 'appcompat-v7'
+        exclude group: 'com.android.support', module: 'recyclerview-v7'
+    })
+}

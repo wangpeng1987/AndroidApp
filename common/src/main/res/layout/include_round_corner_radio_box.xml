@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.wop.common.ui.widget.RoundCornerRadioBox xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/round_corner_radio_left_actv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="6dp"
+        android:paddingBottom="6dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textSize="13sp"/>
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/round_corner_radio_center_actv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="6dp"
+        android:paddingBottom="6dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textSize="13sp"
+        android:visibility="gone"
+        />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/round_corner_radio_right_actv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="6dp"
+        android:paddingBottom="6dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textSize="13sp"/>
+
+</com.wop.common.ui.widget.RoundCornerRadioBox>

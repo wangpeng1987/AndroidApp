@@ -1,0 +1,28 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.wop.common">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name="com.wop.common.ui.matisse.ui.MatisseActivity" />
+        <activity android:name="com.wop.common.ui.matisse.ui.MatisseListActivity"/>
+        <activity android:name="com.wop.common.ui.matisse.internal.ui.AlbumPreviewActivity" />
+        <activity android:name="com.wop.common.ui.matisse.internal.ui.SelectedPreviewActivity" />
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.wop.common.matisse.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths_public"></meta-data>
+        </provider>
+    </application>
+
+</manifest>

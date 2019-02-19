@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@null"
+    android:orientation="vertical">
+
+    <LinearLayout
+        style="@style/bottom_menu"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:background="@android:color/transparent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/dialog_title_actv"
+                android:text=""
+                style="@style/menu_btn"
+                android:textSize="@dimen/font_14_sp"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="1px"
+                android:background="@color/colour_5"
+                android:textColor="@color/colour_9"/>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/dialog_rv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:overScrollMode="never"
+                />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/dialog_cancel_actv"
+                android:text=""
+                style="@style/menu_btn"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/selector_rect_fill_color_05"
+                android:textColor="@color/colour_30"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

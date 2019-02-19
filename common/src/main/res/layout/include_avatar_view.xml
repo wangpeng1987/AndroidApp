@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.wop.common.ui.widget.AvatarView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colour_5"
+        >
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/avatar_pre_aciv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            android:scaleType="centerCrop"/>
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/avata_aciv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            android:scaleType="centerCrop"/>
+
+    </RelativeLayout>
+
+</com.wop.common.ui.widget.AvatarView>

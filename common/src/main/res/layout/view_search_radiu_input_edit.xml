@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="@dimen/dimen_55_dp"
+    android:background="@drawable/rect_fill_color_15">
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/radiu_input_edit_acet"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_35_dp"
+        android:layout_toLeftOf="@+id/radiu_input_edit_cancel_actv"
+        android:paddingLeft="37dp"
+        android:textColor="@color/colour_1"
+        android:gravity="left|center_vertical"
+        android:background="@drawable/radiu_fill_color_05"
+        android:textCursorDrawable="@color/m2E9BF5"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:inputType="text"
+        android:imeOptions="actionSearch"
+        android:layout_marginStart="@dimen/dimen_10_dp"
+        android:textSize="16sp"/>
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/radiu_input_edit_search_aciv"
+        android:layout_width="@dimen/dimen_22_dp"
+        android:layout_height="@dimen/dimen_22_dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/dimen_20_dp"
+        android:scaleType="fitCenter"/>
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/radiu_input_edit_cancel_actv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="@dimen/dimen_10_dp"
+        android:textSize="@dimen/font_16_sp"
+        android:textColor="@color/colour_1"
+        />
+
+</RelativeLayout>

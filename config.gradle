@@ -1,0 +1,9 @@
+ext {
+    BooCompileSdkVersion = 28
+    BooMinSdkVersion = 21
+    BooTargetSdkVersion = 28
+    supportLibVersion = "28.0.0"
+    objectboxVersion = "1.4.0"
+    BooBuildToolsVersion = "28.0.3"
+    latest_release = '3.4.1'
+}

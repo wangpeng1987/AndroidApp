@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="@dimen/dimen_55_dp"
+    android:background="@drawable/rect_fill_color_15">
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/rect_edit_acet"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_35_dp"
+        android:layout_toLeftOf="@+id/rect_edit_cancel_aciv"
+        android:textColor="@color/colour_1"
+        android:gravity="left|center_vertical"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:textCursorDrawable="@color/m2E9BF5"
+        android:paddingLeft="37dp"
+        android:background="@null"
+        android:inputType="text"
+        android:imeOptions="actionSearch"
+        android:layout_marginStart="@dimen/dimen_10_dp"
+        android:textSize="16sp"/>
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/rect_edit_search_aciv"
+        android:layout_width="@dimen/dimen_22_dp"
+        android:layout_height="@dimen/dimen_22_dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/dimen_20_dp"
+        android:scaleType="fitCenter"/>
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/rect_edit_cancel_aciv"
+        android:layout_width="@dimen/dimen_22_dp"
+        android:layout_height="@dimen/dimen_22_dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="@dimen/dimen_10_dp"
+        />
+
+</RelativeLayout>

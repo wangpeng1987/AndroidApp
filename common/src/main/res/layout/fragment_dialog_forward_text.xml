@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:id="@+id/rootView"
+        style="@style/dialog_bg">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/dialog_title_actv"
+            android:text=""
+            style="@style/dialog_title" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/dialog_content_actv"
+            android:text=""
+            android:maxLines="2"
+            android:ellipsize="end"
+            style="@style/dialog_content" />
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/dialog_forward_text_acet"
+            style="@style/dialog_forward_edit_text" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/dialog_forward_text_actv"
+                android:text=""
+                style="@style/dialog_common_single_btn" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/dialog_cancel_actv"
+                android:text=""
+                android:visibility="gone"
+                style="@style/dialog_common_cancel" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--下面颜色值固定，不要添加色值,以下色值为UI规定的色值，需要在黑夜和白天模式切换-->
+    <color name="colour_1001">#FF262626</color>
+    <color name="colour_1002">#66262626</color>
+    <color name="colour_1003">#33262626</color>
+    <color name="colour_1004">#00262626</color>
+    <color name="colour_1005">#FFFFFFFF</color>
+    <color name="colour_1006">#F2FFFFFF</color>
+    <color name="colour_1007">#99FFFFFF</color>
+    <color name="colour_1008">#00FFFFFF</color>
+    <color name="colour_1009">#FF929292</color>
+    <color name="colour_1010">#FFa8a8a8</color>
+    <color name="colour_1011">#FFd4d4d4</color>
+    <color name="colour_1012">#FFF5F8F9</color>
+    <color name="colour_1013">#FFEAEEF1</color>
+    <color name="colour_1014">#FFfbfbfb</color>
+    <color name="colour_1015">#FFf4f4f4</color>
+    <color name="colour_1016">#FFF3F9FD</color>
+    <color name="colour_1017">#FFFBCF00</color>
+    <color name="colour_1018">#FFCBA500</color>
+    <color name="colour_1019">#FF29CE85</color>
+    <color name="colour_1020">#FF20A46A</color>
+    <color name="colour_1021">#FF53D79D</color>
+    <color name="colour_1022">#FF39C5FD</color>
+    <color name="colour_1023">#FF2D9DCA</color>
+    <color name="colour_1024">#FF60D0FD</color>
+    <color name="colour_1025">#FF752F26</color>
+    <color name="colour_1026">#FF5D2511</color>
+    <color name="colour_1027">#FF905851</color>
+    <color name="colour_1028">#FFF86060</color>
+    <color name="colour_1029">#FFC64C4C</color>
+    <color name="colour_1030">#FF04C6BF</color>
+    <color name="colour_1031">#FF039E98</color>
+    <color name="colour_1032">#FF00C98C</color>
+    <color name="colour_1033">#FF00A070</color>
+    <color name="colour_1034">#FF63DC56</color>
+    <color name="colour_1035">#FF4FB044</color>
+    <color name="colour_1036">#FF2B4520</color>
+    <color name="colour_1037">#CCCCCC</color>
+</resources>

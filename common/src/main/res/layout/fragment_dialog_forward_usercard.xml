@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:id="@+id/rootView"
+        style="@style/dialog_bg">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/dialog_title_actv"
+            android:text=""
+            style="@style/dialog_title" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="8dp">
+
+            <com.wop.common.ui.widget.AvatarView
+                android:id="@+id/forward_usercard_avatar"
+                android:layout_marginLeft="20dp"
+                android:layout_width="48dp"
+                android:layout_height="48dp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@+id/forward_usercard_avatar"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/forward_usercard_boo_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colour_1"
+                    android:textSize="@dimen/font_16_sp"
+                    />
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/forward_usercard_user_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colour_9"
+                    android:textSize="@dimen/font_14_sp"
+                    />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/dialog_forward_text_acet"
+            style="@style/dialog_forward_edit_text" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/dialog_forward_text_actv"
+                android:text=""
+                style="@style/dialog_common_single_btn" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/dialog_cancel_actv"
+                android:text=""
+                android:visibility="gone"
+                style="@style/dialog_common_cancel" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

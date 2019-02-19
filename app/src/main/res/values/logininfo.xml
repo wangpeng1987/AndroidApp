@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="login_state">LoginState</string>
+    <string name="login_token">LoginState</string>
+    <string name="login_username">username</string>
+    <string name="login_boo_id">boo_id</string>
+    <string name="login_email">email</string>
+    <string name="login_phone">phone</string>
+    <string name="login_mcc">mcc</string>
+    <string name="login_bio">bio</string>
+    <string name="login_avatar">avatar</string>
+    <string name="login_nickname">nickname</string>
+    <string name="login_brithyear">brithyear</string>
+    <string name="login_brithday">brithday</string>
+    <string name="login_gender">gender</string>
+</resources>

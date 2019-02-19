@@ -1,0 +1,18 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion BooCompileSdkVersion
+    buildToolsVersion BooBuildToolsVersion
+
+    defaultConfig {
+        minSdkVersion BooMinSdkVersion
+        targetSdkVersion BooTargetSdkVersion
+        versionCode 1
+        versionName "1.0"
+    }
+
+}
+
+dependencies {
+    implementation "com.android.support:appcompat-v7:${supportLibVersion}"
+}

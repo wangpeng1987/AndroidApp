@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright 2017 Zhihu Inc.
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/media_thumbnail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <com.wop.common.ui.matisse.internal.ui.widget.CheckView
+        android:id="@+id/check_view"
+        android:layout_width="@dimen/dimen_35_dp"
+        android:layout_height="@dimen/dimen_35_dp"
+        android:layout_gravity="top|right"/>
+
+    <ImageView
+        android:id="@+id/gif"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|bottom"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="8dp"
+        android:visibility="gone"/>
+
+    <RelativeLayout
+        android:id="@+id/video_duration_rl"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_24_dp"
+        android:layout_gravity="right|bottom"
+        android:background="@color/colour_1"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:src="@mipmap/g_icon_frame_video"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/dimen_5_dp"
+            />
+
+        <TextView
+            android:id="@+id/video_duration"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textColor="@color/colour_5"
+            android:textSize="16sp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="@dimen/dimen_5_dp"
+            />
+    </RelativeLayout>
+
+</merge>
