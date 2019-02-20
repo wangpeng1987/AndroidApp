@@ -31,7 +31,7 @@ import static com.wop.common.core.net.NetConstants.HTTP_SUCCESS_CODE;
 public class EncodeDecodeInterceptor implements Interceptor {
 
     //加解密需要的key
-    public static final String AES256_KEY = "ilc2grp9_d3LcMRYJ8BgYsSXuvnQbHbH==";
+    public static final String AES256_KEY = "ilc2grp9_d3LcMRYJ8BgYsSXuvnQbHbH";
 
     @Override
     public Response intercept(Chain chain) throws IOException {
