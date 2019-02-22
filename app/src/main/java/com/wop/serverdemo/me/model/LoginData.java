@@ -6,23 +6,47 @@ package com.wop.serverdemo.me.model;
  */
 public class LoginData {
 
-    /**
-     * idUserTable : 1
-     * phone : 1308898989
-     * name : WANG
-     * pwd : peng
-     */
-    private int idUserTable;
-    private String phone;
-    private String name;
-    private String pwd;
 
-    public int getIdUserTable() {
-        return idUserTable;
+    /**
+     * username : WANGPENG1
+     * password : wwwwww
+     * email : 40666@qq.com
+     * phone : 13089897878
+     * mcc : 86
+     * avatar : http://www.pptok.com/wp-content/uploads/2012/08/xunguang-4.jpg
+     */
+
+    private String username;
+    private String password;
+    private String email;
+    private String phone;
+    private String mcc;
+    private String avatar;
+    private String token;
+
+
+    public String getUsername() {
+        return username;
     }
 
-    public void setIdUserTable(int idUserTable) {
-        this.idUserTable = idUserTable;
+    public void setUsername(String username) {
+        this.username = username;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
     }
 
     public String getPhone() {
@@ -33,19 +57,27 @@ public class LoginData {
         this.phone = phone;
     }
 
-    public String getName() {
-        return name;
+    public String getMcc() {
+        return mcc;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setMcc(String mcc) {
+        this.mcc = mcc;
     }
 
-    public String getPwd() {
-        return pwd;
+    public String getAvatar() {
+        return avatar;
     }
 
-    public void setPwd(String pwd) {
-        this.pwd = pwd;
+    public void setAvatar(String avatar) {
+        this.avatar = avatar;
+    }
+
+    public String getToken() {
+        return token;
+    }
+
+    public void setToken(String token) {
+        this.token = token;
     }
 }

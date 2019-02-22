@@ -1,7 +1,5 @@
 package com.wop.serverdemo.me.ui.login;
 
-import com.alibaba.fastjson.JSONObject;
-import com.wop.common.util.JSONUtils;
 import com.wop.serverdemo.me.MeApiDataManager;
 import com.wop.serverdemo.me.model.LoginData;
 import com.wop.serverdemo.me.net.RxObserver;

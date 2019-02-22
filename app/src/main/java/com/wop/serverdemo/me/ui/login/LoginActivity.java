@@ -7,6 +7,7 @@ import android.view.View.OnClickListener;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.wop.common.core.net.interceptor.HttpHeadInterceptor;
 import com.wop.serverdemo.MainActivity;
 import com.wop.serverdemo.R;
 import com.wop.serverdemo.core.base.BaseActivity;
@@ -78,10 +79,10 @@ public class LoginActivity extends BaseActivity implements LoginContract.View {
     @Override
     public void onLoginSuccess(LoginData loginData) {
         if (loginData != null) {
-//            MMKVUtils.saveLoginInfoValue(getResources().getString(R.string.login_state), true);
-//            MMKVUtils.saveLoginInfoValue(getResources().getString(R.string.login_token), loginData.getToken());
-//            MMKVUtils.saveLoginInfoValue(getResources().getString(R.string.login_username), loginData.getUser().getUsername());
-//            HttpHeadInterceptor.ACCESS_TOKEN = loginData.getToken();
+            MMKVUtils.saveLoginInfoValue(getResources().getString(R.string.login_state), true);
+            MMKVUtils.saveLoginInfoValue(getResources().getString(R.string.login_token), loginData.getToken());
+            MMKVUtils.saveLoginInfoValue(getResources().getString(R.string.login_username), loginData.getUsername());
+            HttpHeadInterceptor.ACCESS_TOKEN = loginData.getToken();
 
             startHome();
         }
