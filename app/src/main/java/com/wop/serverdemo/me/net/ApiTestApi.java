@@ -268,4 +268,12 @@ public interface ApiTestApi {
     Observable<ResponseModel<JSONObject>> delBlock(@Body Map<String, ArrayList<Integer>> params);
 
 
+    /**
+     * @param
+     * @return
+     * @Description: 按书名搜索
+     */
+    @GET("http://search.17k.com/search.xhtml")
+    Observable<ResponseModel<JSONObject>> searchBook(@Query("c.st") int st,@Query("c.q") String bookname);
+
 }

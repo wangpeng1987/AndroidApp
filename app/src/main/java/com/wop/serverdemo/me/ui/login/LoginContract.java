@@ -16,7 +16,7 @@ public interface LoginContract {
     interface Presenter {
 
         void login(String name, String password);
-
+        void searchbook(String name);
     }
 
 }

@@ -175,6 +175,11 @@ public class ApiTestService extends RetrofitCore {
                 .compose((ObservableTransformer<? super ResponseModel<JSONObject>, ? extends JSONObject>) RxTransformer.handleData());
     }
 
+    public Observable<JSONObject> searchBook(String name) {
+        return mApi.searchBook(0,name)
+                .compose((ObservableTransformer<? super ResponseModel<JSONObject>, ? extends JSONObject>) RxTransformer.handleData());
+    }
+
 
     @Override
     public int hashCode() {

@@ -146,6 +146,10 @@ public class MeApiDataManager {
         return mService.delBlock(blocks);
     }
 
+    public Observable<JSONObject> searchBook(String name) {
+        return mService.searchBook(name);
+    }
+
 
 //    /**
 //     * 获取网络数据，里面可能包含一些数据处理逻辑

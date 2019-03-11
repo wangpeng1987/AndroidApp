@@ -1,5 +1,6 @@
 package com.wop.serverdemo.me.ui.login;
 
+import com.alibaba.fastjson.JSONObject;
 import com.wop.serverdemo.me.MeApiDataManager;
 import com.wop.serverdemo.me.model.LoginData;
 import com.wop.serverdemo.me.net.RxObserver;
@@ -32,6 +33,24 @@ public class LoginPresenter implements LoginContract.Presenter {
                     public void onNext(LoginData loginData) {
 //                        LoginData loginData = JSONUtils.getPerson(json.toString(), LoginData.class);
                         mView.onLoginSuccess(loginData);
+                    }
+
+                    @Override
+                    public void doOnError(Throwable e) {
+                        mView.onLoginError(e.getMessage());
+                    }
+                });
+    }
+
+    @Override
+    public void searchbook(String name) {
+        mDataManager.searchBook(name)
+                .observeOn(AndroidSchedulers.mainThread())
+                .subscribe(new RxObserver<JSONObject>() {
+                    @Override
+                    public void onNext(JSONObject jsonObject) {
+//                        LoginData loginData = JSONUtils.getPerson(json.toString(), LoginData.class);
+//                        mView.onLoginSuccess(jsonObject);
                     }
 
                     @Override

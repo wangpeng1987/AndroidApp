@@ -13,6 +13,7 @@ import com.wop.serverdemo.R;
 import com.wop.serverdemo.core.base.BaseActivity;
 import com.wop.serverdemo.core.utils.MMKVUtils;
 import com.wop.serverdemo.me.model.LoginData;
+import com.wop.serverdemo.me.ui.book.BookActivity;
 import com.wop.serverdemo.me.ui.register.RegisterActivity;
 
 import butterknife.BindView;
@@ -72,6 +73,14 @@ public class LoginActivity extends BaseActivity implements LoginContract.View {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(LoginActivity.this, RegisterActivity.class));
+            }
+        });
+
+        findViewById(R.id.goto_search_bt).setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View v) {
+//                mPresenter.searchbook("真龙");
+                startActivity(new Intent(LoginActivity.this, BookActivity.class));
             }
         });
     }

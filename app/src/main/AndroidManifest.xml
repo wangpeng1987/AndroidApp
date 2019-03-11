@@ -3,7 +3,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.wop.serverdemo">
 
-
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
@@ -22,7 +21,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
         <meta-data
             android:name="design_width_in_dp"
             android:value="414" />
@@ -31,7 +29,6 @@
             android:value="736" />
 
         <activity android:name=".MainActivity" />
-
         <activity
             android:name=".me.ui.login.LoginActivity"
             android:windowSoftInputMode="stateHidden|stateAlwaysHidden">
@@ -41,12 +38,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".me.ui.register.RegisterActivity"
-            android:windowSoftInputMode="stateHidden|stateAlwaysHidden"></activity>
+            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" />
         <activity android:name=".me.ApiTestActivity" />
-
+        <activity android:name=".me.ui.book.BookActivity"></activity>
     </application>
 
 </manifest>
